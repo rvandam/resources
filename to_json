@@ -5,17 +5,17 @@ use warnings;
 
 use JSON;
 
-my @LINK_ORDER = qw(username module author repo);
+my @LINK_ORDER = qw(assigned module author repo);
 
 my $rows = [];
 foreach my $line (<>) {
     # yeah, yeah, regex parsing html is bad, I know, sue me
     my $row; @{ $row }{ @LINK_ORDER } = $line =~ /<a href='([^']*?)'/g;
-    next if ! $row->{'username'};
+    next if ! $row->{'assigned'};
     push $rows, $row;
 }
 
-print to_json $rows, { utf8 => 1, pretty => 1 };
+print to_json $rows, { utf8 => 1, pretty => 1, canonical => 1 };
 
 __END__
 

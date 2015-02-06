@@ -1,2035 +1,2035 @@
 [
    {
-      "username" : "https://github.com/flimm",
-      "repo" : "https://github.com/rjbs/Data-UUID",
+      "assigned" : "https://github.com/flimm",
+      "author" : "https://metacpan.org/author/RJBS",
       "module" : "https://metacpan.org/release/Data-UUID",
-      "author" : "https://metacpan.org/author/RJBS"
+      "repo" : "https://github.com/rjbs/Data-UUID"
    },
    {
+      "assigned" : "https://github.com/manwar",
       "author" : "https://metacpan.org/author/MIYAGAWA",
-      "repo" : "https://github.com/stevan/plack-middleware-session",
       "module" : "https://metacpan.org/release/Plack-Middleware-Session",
-      "username" : "https://github.com/manwar"
+      "repo" : "https://github.com/stevan/plack-middleware-session"
    },
    {
+      "assigned" : "https://github.com/nawglan",
       "author" : "https://metacpan.org/author/INGY",
-      "username" : "https://github.com/nawglan",
       "module" : "https://metacpan.org/release/YAML-LibYAML",
       "repo" : "https://github.com/ingydotnet/yaml-libyaml-pm"
    },
    {
+      "assigned" : "https://github.com/mjg17",
       "author" : "https://metacpan.org/author/DAGOLDEN",
-      "repo" : "https://github.com/dagolden/Sub-Uplevel",
       "module" : "https://metacpan.org/release/Sub-Uplevel",
-      "username" : "https://github.com/mjg17"
+      "repo" : "https://github.com/dagolden/Sub-Uplevel"
    },
    {
-      "username" : "https://github.com/rjbs",
-      "repo" : "https://github.com/briandfoy/test-file",
+      "assigned" : "https://github.com/rjbs",
+      "author" : "https://metacpan.org/author/BDFOY",
       "module" : "https://metacpan.org/release/Test-File",
-      "author" : "https://metacpan.org/author/BDFOY"
+      "repo" : "https://github.com/briandfoy/test-file"
    },
    {
+      "assigned" : "https://github.com/jj",
       "author" : "https://metacpan.org/author/TOKUHIROM",
-      "username" : "https://github.com/jj",
-      "repo" : "https://github.com/tokuhirom/Test-TCP",
-      "module" : "https://metacpan.org/release/Test-TCP"
+      "module" : "https://metacpan.org/release/Test-TCP",
+      "repo" : "https://github.com/tokuhirom/Test-TCP"
    },
    {
-      "repo" : "https://github.com/moose/Moo",
+      "assigned" : "https://github.com/bubaflub",
+      "author" : "https://metacpan.org/author/HAARG",
       "module" : "https://metacpan.org/release/Moo",
-      "username" : "https://github.com/bubaflub",
-      "author" : "https://metacpan.org/author/HAARG"
+      "repo" : "https://github.com/moose/Moo"
    },
    {
+      "assigned" : "https://github.com/frioux",
+      "author" : "https://metacpan.org/author/FRIEDO",
       "module" : "https://metacpan.org/release/namespace-sweep",
-      "repo" : "https://github.com/friedo/perl-namespace-sweep",
-      "username" : "https://github.com/frioux",
-      "author" : "https://metacpan.org/author/FRIEDO"
+      "repo" : "https://github.com/friedo/perl-namespace-sweep"
    },
    {
+      "assigned" : "https://github.com/reneeb",
       "author" : "https://metacpan.org/author/DROLSKY",
-      "repo" : "https://github.com/autarch/DateTime.pm",
       "module" : "https://metacpan.org/release/DateTime",
-      "username" : "https://github.com/reneeb"
+      "repo" : "https://github.com/autarch/DateTime.pm"
    },
    {
+      "assigned" : "https://github.com/pangyre",
       "author" : "https://metacpan.org/author/BOOK",
-      "username" : "https://github.com/pangyre",
       "module" : "https://metacpan.org/release/HTTP-Proxy",
       "repo" : "https://github.com/book/HTTP-Proxy"
    },
    {
+      "assigned" : "https://github.com/book",
       "author" : "https://metacpan.org/author/OALDERS",
-      "username" : "https://github.com/book",
-      "repo" : "https://github.com/oalders/archive-any",
-      "module" : "https://metacpan.org/release/Archive-Any"
+      "module" : "https://metacpan.org/release/Archive-Any",
+      "repo" : "https://github.com/oalders/archive-any"
    },
    {
-      "username" : "https://github.com/neilbowers",
-      "repo" : "https://github.com/Ovid/Text-Diff",
+      "assigned" : "https://github.com/neilbowers",
+      "author" : "https://metacpan.org/author/OVID",
       "module" : "https://metacpan.org/release/Text-Diff",
-      "author" : "https://metacpan.org/author/OVID"
+      "repo" : "https://github.com/Ovid/Text-Diff"
    },
    {
-      "username" : "https://github.com/tvroom",
-      "repo" : "https://github.com/adrianh/test-class",
+      "assigned" : "https://github.com/tvroom",
+      "author" : "https://metacpan.org/author/FLORA",
       "module" : "https://metacpan.org/release/Test-Class",
-      "author" : "https://metacpan.org/author/FLORA"
+      "repo" : "https://github.com/adrianh/test-class"
    },
    {
+      "assigned" : "https://github.com/svatsan",
       "author" : "https://metacpan.org/author/MSCHILLI",
-      "username" : "https://github.com/svatsan",
       "module" : "https://metacpan.org/release/Log-Log4perl",
       "repo" : "https://github.com/mschilli/log4perl"
    },
    {
+      "assigned" : "https://github.com/heytitle",
       "author" : "https://metacpan.org/author/RURBAN",
       "module" : "https://metacpan.org/release/Compress-Bzip2",
-      "repo" : "https://github.com/rurban/Compress-Bzip2",
-      "username" : "https://github.com/heytitle"
+      "repo" : "https://github.com/rurban/Compress-Bzip2"
    },
    {
-      "username" : "https://github.com/mbeijen",
+      "assigned" : "https://github.com/mbeijen",
+      "author" : "https://metacpan.org/author/CHORNY",
       "module" : "https://metacpan.org/release/DateTime-Format-Epoch",
-      "repo" : "https://github.com/chorny/DateTime-Format-Epoch",
-      "author" : "https://metacpan.org/author/CHORNY"
+      "repo" : "https://github.com/chorny/DateTime-Format-Epoch"
    },
    {
-      "repo" : "https://github.com/maros/MooseX-App",
+      "assigned" : "https://github.com/xsawyerx",
+      "author" : "https://metacpan.org/author/MAROS",
       "module" : "https://metacpan.org/release/MooseX-App",
-      "username" : "https://github.com/xsawyerx",
-      "author" : "https://metacpan.org/author/MAROS"
+      "repo" : "https://github.com/maros/MooseX-App"
    },
    {
-      "repo" : "https://github.com/kroki/Cache-Memcached-Fast",
+      "assigned" : "https://github.com/mcmillhj",
+      "author" : "https://metacpan.org/author/KROKI",
       "module" : "https://metacpan.org/release/Cache-Memcached-Fast",
-      "username" : "https://github.com/mcmillhj",
-      "author" : "https://metacpan.org/author/KROKI"
+      "repo" : "https://github.com/kroki/Cache-Memcached-Fast"
    },
    {
-      "username" : "https://github.com/Su-Shee",
+      "assigned" : "https://github.com/Su-Shee",
+      "author" : "https://metacpan.org/author/GFUJI",
       "module" : "https://metacpan.org/release/MouseX-NativeTraits",
-      "repo" : "https://github.com/gfx/p5-MouseX-NativeTraits",
-      "author" : "https://metacpan.org/author/GFUJI"
+      "repo" : "https://github.com/gfx/p5-MouseX-NativeTraits"
    },
    {
+      "assigned" : "https://github.com/jkg",
       "author" : "https://metacpan.org/author/RJRAY",
-      "repo" : "https://github.com/rjray/rpc-xml",
       "module" : "https://metacpan.org/release/RPC-XML",
-      "username" : "https://github.com/jkg"
+      "repo" : "https://github.com/rjray/rpc-xml"
    },
    {
-      "username" : "https://github.com/leejo",
-      "repo" : "https://github.com/dex4er/perl-Exception-Base",
+      "assigned" : "https://github.com/leejo",
+      "author" : "https://metacpan.org/author/DEXTER",
       "module" : "https://metacpan.org/release/Exception-Base",
-      "author" : "https://metacpan.org/author/DEXTER"
+      "repo" : "https://github.com/dex4er/perl-Exception-Base"
    },
    {
+      "assigned" : "https://github.com/tobez",
       "author" : "https://metacpan.org/author/BAREFOOT",
       "module" : "https://metacpan.org/release/Data-Random",
-      "repo" : "https://github.com/barefootcoder/Data-Random",
-      "username" : "https://github.com/tobez"
+      "repo" : "https://github.com/barefootcoder/Data-Random"
    },
    {
+      "assigned" : "https://github.com/nbezzala",
+      "author" : "https://metacpan.org/author/DMAKI",
       "module" : "https://metacpan.org/release/DateTime-Format-Pg",
-      "repo" : "https://github.com/lestrrat/DateTime-Format-Pg",
-      "username" : "https://github.com/nbezzala",
-      "author" : "https://metacpan.org/author/DMAKI"
+      "repo" : "https://github.com/lestrrat/DateTime-Format-Pg"
    },
    {
+      "assigned" : "https://github.com/isunix",
       "author" : "https://metacpan.org/author/CAPTTOFU",
       "module" : "https://metacpan.org/release/DBD-mysql",
-      "repo" : "https://github.com/perl5-dbi/DBD-mysql",
-      "username" : "https://github.com/isunix"
+      "repo" : "https://github.com/perl5-dbi/DBD-mysql"
    },
    {
+      "assigned" : "https://github.com/vti",
       "author" : "https://metacpan.org/author/CFRANKS",
-      "username" : "https://github.com/vti",
-      "repo" : "https://github.com/fireartist/HTML-FormFu",
-      "module" : "https://metacpan.org/release/HTML-FormFu"
+      "module" : "https://metacpan.org/release/HTML-FormFu",
+      "repo" : "https://github.com/fireartist/HTML-FormFu"
    },
    {
-      "username" : "https://github.com/dginev",
+      "assigned" : "https://github.com/dginev",
+      "author" : "https://metacpan.org/author/MAUKE",
       "module" : "https://metacpan.org/release/Keyword-Simple",
-      "repo" : "https://github.com/mauke/Keyword-Simple",
-      "author" : "https://metacpan.org/author/MAUKE"
+      "repo" : "https://github.com/mauke/Keyword-Simple"
    },
    {
-      "username" : "https://github.com/simonaw",
+      "assigned" : "https://github.com/simonaw",
+      "author" : "https://metacpan.org/author/ETHER",
       "module" : "https://metacpan.org/release/B-Hooks-EndOfScope",
-      "repo" : "https://github.com/karenetheridge/B-Hooks-EndOfScope",
-      "author" : "https://metacpan.org/author/ETHER"
+      "repo" : "https://github.com/karenetheridge/B-Hooks-EndOfScope"
    },
    {
+      "assigned" : "https://github.com/skington",
+      "author" : "https://metacpan.org/author/RCAPUTO",
       "module" : "https://metacpan.org/release/POE-Component-Client-Keepalive",
-      "repo" : "https://github.com/rcaputo/poe-component-client-keepalive",
-      "username" : "https://github.com/skington",
-      "author" : "https://metacpan.org/author/RCAPUTO"
+      "repo" : "https://github.com/rcaputo/poe-component-client-keepalive"
    },
    {
-      "repo" : "https://github.com/ingydotnet/io-all-pm",
+      "assigned" : "https://github.com/pink-mist",
+      "author" : "https://metacpan.org/author/INGY",
       "module" : "https://metacpan.org/release/IO-All",
-      "username" : "https://github.com/pink-mist",
-      "author" : "https://metacpan.org/author/INGY"
+      "repo" : "https://github.com/ingydotnet/io-all-pm"
    },
    {
+      "assigned" : "https://github.com/mdrone",
       "author" : "https://metacpan.org/author/KARASIK",
-      "repo" : "https://github.com/dk/Prima",
       "module" : "https://metacpan.org/release/Prima",
-      "username" : "https://github.com/mdrone"
+      "repo" : "https://github.com/dk/Prima"
    },
    {
-      "username" : "https://github.com/Sweet-kid",
-      "repo" : "https://github.com/noxxi/p5-io-socket-ssl",
+      "assigned" : "https://github.com/Sweet-kid",
+      "author" : "https://metacpan.org/author/SULLR",
       "module" : "https://metacpan.org/release/IO-Socket-SSL",
-      "author" : "https://metacpan.org/author/SULLR"
+      "repo" : "https://github.com/noxxi/p5-io-socket-ssl"
    },
    {
+      "assigned" : "https://github.com/zmughal",
       "author" : "https://metacpan.org/author/GARU",
-      "repo" : "https://github.com/garu/Clone",
       "module" : "https://metacpan.org/release/Clone",
-      "username" : "https://github.com/zmughal"
+      "repo" : "https://github.com/garu/Clone"
    },
    {
+      "assigned" : "https://github.com/paultcochrane",
       "author" : "https://metacpan.org/author/PERIGRIN",
-      "username" : "https://github.com/paultcochrane",
       "module" : "https://metacpan.org/release/XML-NamespaceSupport",
       "repo" : "https://github.com/perigrin/xml-namespacesupport"
    },
    {
-      "username" : "https://github.com/fluca1978",
-      "repo" : "https://github.com/theory/test-pod/tree",
+      "assigned" : "https://github.com/fluca1978",
+      "author" : "https://metacpan.org/author/DWHEELER",
       "module" : "https://metacpan.org/release/Test-Pod",
-      "author" : "https://metacpan.org/author/DWHEELER"
+      "repo" : "https://github.com/theory/test-pod/tree"
    },
    {
+      "assigned" : "https://github.com/damsieboy",
       "author" : "https://metacpan.org/author/MAKAMAKA",
-      "username" : "https://github.com/damsieboy",
-      "repo" : "https://github.com/makamaka/JSON",
-      "module" : "https://metacpan.org/release/JSON"
+      "module" : "https://metacpan.org/release/JSON",
+      "repo" : "https://github.com/makamaka/JSON"
    },
    {
-      "username" : "https://github.com/nicomen",
-      "repo" : "https://github.com/jib/config-auto",
+      "assigned" : "https://github.com/nicomen",
+      "author" : "https://metacpan.org/author/BINGOS",
       "module" : "https://metacpan.org/release/Config-Auto",
-      "author" : "https://metacpan.org/author/BINGOS"
+      "repo" : "https://github.com/jib/config-auto"
    },
    {
-      "username" : "https://github.com/peroumal1",
+      "assigned" : "https://github.com/peroumal1",
+      "author" : "https://metacpan.org/author/GRANTM",
       "module" : "https://metacpan.org/release/XML-SAX-Base",
-      "repo" : "https://github.com/grantm/XML-SAX-Base",
-      "author" : "https://metacpan.org/author/GRANTM"
+      "repo" : "https://github.com/grantm/XML-SAX-Base"
    },
    {
-      "repo" : "https://github.com/exodist/Exporter-Declare",
+      "assigned" : "https://github.com/kyzn",
+      "author" : "https://metacpan.org/author/EXODIST",
       "module" : "https://metacpan.org/release/Exporter-Declare",
-      "username" : "https://github.com/kyzn",
-      "author" : "https://metacpan.org/author/EXODIST"
+      "repo" : "https://github.com/exodist/Exporter-Declare"
    },
    {
-      "username" : "https://github.com/brad-mac",
+      "assigned" : "https://github.com/brad-mac",
+      "author" : "https://metacpan.org/author/YANICK",
       "module" : "https://metacpan.org/release/Dancer",
-      "repo" : "https://github.com/PerlDancer/Dancer",
-      "author" : "https://metacpan.org/author/YANICK"
+      "repo" : "https://github.com/PerlDancer/Dancer"
    },
    {
-      "repo" : "https://github.com/xsawyerx/module-starter",
+      "assigned" : "https://github.com/chrestomanci",
+      "author" : "https://metacpan.org/author/XSAWYERX",
       "module" : "https://metacpan.org/release/Module-Starter",
-      "username" : "https://github.com/chrestomanci",
-      "author" : "https://metacpan.org/author/XSAWYERX"
+      "repo" : "https://github.com/xsawyerx/module-starter"
    },
    {
+      "assigned" : "https://github.com/lancew",
       "author" : "https://metacpan.org/author/GAAS",
-      "repo" : "https://github.com/gisle/html-form",
       "module" : "https://metacpan.org/release/HTML-Form",
-      "username" : "https://github.com/lancew"
+      "repo" : "https://github.com/gisle/html-form"
    },
    {
+      "assigned" : "https://github.com/shlomif",
+      "author" : "https://metacpan.org/author/GPHAT",
       "module" : "https://metacpan.org/release/Graphics-Primitive",
-      "repo" : "https://github.com/gphat/graphics-primitive",
-      "username" : "https://github.com/shlomif",
-      "author" : "https://metacpan.org/author/GPHAT"
+      "repo" : "https://github.com/gphat/graphics-primitive"
    },
    {
+      "assigned" : "https://github.com/AmirMeiry",
+      "author" : "https://metacpan.org/author/AJGB",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-AutoMetaResources",
-      "repo" : "https://github.com/ajgb/dist-zilla-plugin-autometaresources",
-      "username" : "https://github.com/AmirMeiry",
-      "author" : "https://metacpan.org/author/AJGB"
+      "repo" : "https://github.com/ajgb/dist-zilla-plugin-autometaresources"
    },
    {
+      "assigned" : "https://github.com/yanick",
       "author" : "https://metacpan.org/author/ABRAXXA",
-      "username" : "https://github.com/yanick",
       "module" : "https://metacpan.org/release/Message-Passing",
       "repo" : "https://github.com/suretec/Message-Passing"
    },
    {
+      "assigned" : "https://github.com/StylusEater",
       "author" : "https://metacpan.org/author/ETJ",
-      "username" : "https://github.com/StylusEater",
-      "repo" : "https://github.com/ingydotnet/Inline-Java",
-      "module" : "https://metacpan.org/release/Inline-Java"
+      "module" : "https://metacpan.org/release/Inline-Java",
+      "repo" : "https://github.com/ingydotnet/Inline-Java"
    },
    {
+      "assigned" : "https://github.com/hashref",
       "author" : "https://metacpan.org/author/TYPESTER",
-      "repo" : "https://github.com/typester/Test-RedisServer",
       "module" : "https://metacpan.org/release/Test-RedisServer",
-      "username" : "https://github.com/hashref"
+      "repo" : "https://github.com/typester/Test-RedisServer"
    },
    {
+      "assigned" : "https://github.com/wchristian",
       "author" : "https://metacpan.org/author/MARKSTOS",
-      "username" : "https://github.com/wchristian",
-      "repo" : "https://github.com/cromedome/cgi-session",
-      "module" : "https://metacpan.org/release/CGI-Session"
+      "module" : "https://metacpan.org/release/CGI-Session",
+      "repo" : "https://github.com/cromedome/cgi-session"
    },
    {
-      "username" : "https://github.com/thrig",
-      "repo" : "https://github.com/pfig/net-amazon-s3",
+      "assigned" : "https://github.com/thrig",
+      "author" : "https://metacpan.org/author/PFIG",
       "module" : "https://metacpan.org/release/Net-Amazon-S3",
-      "author" : "https://metacpan.org/author/PFIG"
+      "repo" : "https://github.com/pfig/net-amazon-s3"
    },
    {
-      "username" : "https://github.com/davehodg",
-      "repo" : "https://github.com/monken/Crypt-OpenSSL-RSA",
+      "assigned" : "https://github.com/davehodg",
+      "author" : "https://metacpan.org/author/PERLER",
       "module" : "https://metacpan.org/release/Crypt-OpenSSL-RSA",
-      "author" : "https://metacpan.org/author/PERLER"
+      "repo" : "https://github.com/monken/Crypt-OpenSSL-RSA"
    },
    {
+      "assigned" : "https://github.com/djstevenson",
       "author" : "https://metacpan.org/author/TIMB",
-      "username" : "https://github.com/djstevenson",
       "module" : "https://metacpan.org/release/DBI",
       "repo" : "https://github.com/perl5-dbi/dbi"
    },
    {
-      "username" : "https://github.com/oeuftete",
-      "repo" : "https://github.com/eserte/perl-tk",
+      "assigned" : "https://github.com/oeuftete",
+      "author" : "https://metacpan.org/author/SREZIC",
       "module" : "https://metacpan.org/release/Tk",
-      "author" : "https://metacpan.org/author/SREZIC"
+      "repo" : "https://github.com/eserte/perl-tk"
    },
    {
+      "assigned" : "https://github.com/tinypigdotcom",
       "author" : "https://metacpan.org/author/SARTAK",
-      "username" : "https://github.com/tinypigdotcom",
       "module" : "https://metacpan.org/release/Devel-StackTrace-WithLexicals",
       "repo" : "https://github.com/sartak/Devel-StackTrace-WithLexicals"
    },
    {
-      "username" : "https://github.com/bjakubski",
+      "assigned" : "https://github.com/bjakubski",
+      "author" : "https://metacpan.org/author/DOY",
       "module" : "https://metacpan.org/release/Data-Stream-Bulk",
-      "repo" : "https://github.com/nothingmuch/data-stream-bulk",
-      "author" : "https://metacpan.org/author/DOY"
+      "repo" : "https://github.com/nothingmuch/data-stream-bulk"
    },
    {
+      "assigned" : "https://github.com/lejeunerenard",
       "author" : "https://metacpan.org/author/ABW",
-      "repo" : "https://github.com/abw/Template2",
       "module" : "https://metacpan.org/release/Template-Toolkit",
-      "username" : "https://github.com/lejeunerenard"
+      "repo" : "https://github.com/abw/Template2"
    },
    {
+      "assigned" : "https://github.com/raigad",
+      "author" : "https://metacpan.org/author/GBARR",
       "module" : "https://metacpan.org/release/Authen-SASL",
-      "repo" : "https://github.com/gbarr/perl-authen-sasl",
-      "username" : "https://github.com/raigad",
-      "author" : "https://metacpan.org/author/GBARR"
+      "repo" : "https://github.com/gbarr/perl-authen-sasl"
    },
    {
-      "username" : "https://github.com/lorn",
-      "repo" : "https://github.com/demerphq/Data-Dump-Streamer",
+      "assigned" : "https://github.com/lorn",
+      "author" : "https://metacpan.org/author/YVES",
       "module" : "https://metacpan.org/release/Data-Dump-Streamer",
-      "author" : "https://metacpan.org/author/YVES"
+      "repo" : "https://github.com/demerphq/Data-Dump-Streamer"
    },
    {
+      "assigned" : "https://github.com/garu",
+      "author" : "https://metacpan.org/author/DPATES",
       "module" : "https://metacpan.org/release/Fuse",
-      "repo" : "https://github.com/dpavlin/perl-fuse",
-      "username" : "https://github.com/garu",
-      "author" : "https://metacpan.org/author/DPATES"
+      "repo" : "https://github.com/dpavlin/perl-fuse"
    },
    {
+      "assigned" : "https://github.com/maneta",
+      "author" : "https://metacpan.org/author/NEILB",
       "module" : "https://metacpan.org/release/Test-Pod-Coverage",
-      "repo" : "https://github.com/neilbowers/Test-Pod-Coverage",
-      "username" : "https://github.com/maneta",
-      "author" : "https://metacpan.org/author/NEILB"
+      "repo" : "https://github.com/neilbowers/Test-Pod-Coverage"
    },
    {
+      "assigned" : "https://github.com/jdorweiler",
       "author" : "https://metacpan.org/author/SZBALINT",
       "module" : "https://metacpan.org/release/WWW-Curl",
-      "repo" : "https://github.com/szbalint/WWW--Curl",
-      "username" : "https://github.com/jdorweiler"
+      "repo" : "https://github.com/szbalint/WWW--Curl"
    },
    {
+      "assigned" : "https://github.com/avereha",
       "author" : "https://metacpan.org/author/NIGELM",
-      "username" : "https://github.com/avereha",
-      "repo" : "https://github.com/nigelm/html-scrubber",
-      "module" : "https://metacpan.org/release/HTML-Scrubber"
+      "module" : "https://metacpan.org/release/HTML-Scrubber",
+      "repo" : "https://github.com/nigelm/html-scrubber"
    },
    {
+      "assigned" : "https://github.com/mvuets",
       "author" : "https://metacpan.org/author/PHRED",
-      "repo" : "https://github.com/redhotpenguin/soaplite",
       "module" : "https://metacpan.org/release/SOAP-Lite",
-      "username" : "https://github.com/mvuets"
+      "repo" : "https://github.com/redhotpenguin/soaplite"
    },
    {
-      "username" : "https://github.com/hagrid-the-developer",
-      "repo" : "https://github.com/madsen/HTML-Tree",
+      "assigned" : "https://github.com/hagrid-the-developer",
+      "author" : "https://metacpan.org/author/CJM",
       "module" : "https://metacpan.org/release/HTML-Tree",
-      "author" : "https://metacpan.org/author/CJM"
+      "repo" : "https://github.com/madsen/HTML-Tree"
    },
    {
+      "assigned" : "https://github.com/labrown",
       "author" : "https://metacpan.org/author/SHLOMIF",
       "module" : "https://metacpan.org/release/String-Random",
-      "repo" : "https://github.com/shlomif/String-Random",
-      "username" : "https://github.com/labrown"
+      "repo" : "https://github.com/shlomif/String-Random"
    },
    {
+      "assigned" : "https://github.com/tadzik",
       "author" : "https://metacpan.org/author/GETTY",
-      "repo" : "https://github.com/perigrin/moosex-poe",
       "module" : "https://metacpan.org/release/MooseX-POE",
-      "username" : "https://github.com/tadzik"
+      "repo" : "https://github.com/perigrin/moosex-poe"
    },
    {
-      "username" : "https://github.com/hipyhop",
-      "repo" : "https://github.com/dbsrgits/dbix-class-schema-loader",
+      "assigned" : "https://github.com/hipyhop",
+      "author" : "https://metacpan.org/author/ILMARI",
       "module" : "https://metacpan.org/release/DBIx-Class-Schema-Loader",
-      "author" : "https://metacpan.org/author/ILMARI"
+      "repo" : "https://github.com/dbsrgits/dbix-class-schema-loader"
    },
    {
-      "repo" : "https://github.com/xenoterracide/dist-zilla-plugin-test-podspelling",
+      "assigned" : "https://github.com/DannyJack",
+      "author" : "https://metacpan.org/author/XENO",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Test-PodSpelling",
-      "username" : "https://github.com/DannyJack",
-      "author" : "https://metacpan.org/author/XENO"
+      "repo" : "https://github.com/xenoterracide/dist-zilla-plugin-test-podspelling"
    },
    {
+      "assigned" : "https://github.com/filefrog",
       "author" : "https://metacpan.org/author/DANIEL",
-      "username" : "https://github.com/filefrog",
       "module" : "https://metacpan.org/release/Crypt-OpenSSL-X509",
       "repo" : "https://github.com/dsully/perl-crypt-openssl-x509"
    },
    {
-      "username" : "https://github.com/schnevets",
-      "repo" : "https://github.com/mpeters/html-template",
+      "assigned" : "https://github.com/schnevets",
+      "author" : "https://metacpan.org/author/WONKO",
       "module" : "https://metacpan.org/release/HTML-Template",
-      "author" : "https://metacpan.org/author/WONKO"
+      "repo" : "https://github.com/mpeters/html-template"
    },
    {
+      "assigned" : "https://github.com/estrabd",
       "author" : "https://metacpan.org/author/GENEHACK",
-      "username" : "https://github.com/estrabd",
-      "repo" : "https://github.com/genehack/Git-Wrapper",
-      "module" : "https://metacpan.org/release/Git-Wrapper"
+      "module" : "https://metacpan.org/release/Git-Wrapper",
+      "repo" : "https://github.com/genehack/Git-Wrapper"
    },
    {
-      "repo" : "https://github.com/chansen/p5-authen-simple",
+      "assigned" : "https://github.com/fijiol",
+      "author" : "https://metacpan.org/author/CHANSEN",
       "module" : "https://metacpan.org/release/Authen-Simple",
-      "username" : "https://github.com/fijiol",
-      "author" : "https://metacpan.org/author/CHANSEN"
+      "repo" : "https://github.com/chansen/p5-authen-simple"
    },
    {
+      "assigned" : "https://github.com/visar",
       "author" : "https://metacpan.org/author/GSHANK",
-      "repo" : "https://github.com/gshank/html-formhandler",
       "module" : "https://metacpan.org/release/HTML-FormHandler",
-      "username" : "https://github.com/visar"
+      "repo" : "https://github.com/gshank/html-formhandler"
    },
    {
+      "assigned" : "https://github.com/MirelaI",
       "author" : "https://metacpan.org/author/AUDREYT",
-      "username" : "https://github.com/MirelaI",
       "module" : "https://metacpan.org/release/Module-Signature",
       "repo" : "https://github.com/audreyt/module-signature"
    },
    {
+      "assigned" : "https://github.com/powellc",
       "author" : "https://metacpan.org/author/SBECK",
-      "username" : "https://github.com/powellc",
-      "repo" : "https://github.com/SBECK-github/Date-Manip",
-      "module" : "https://metacpan.org/release/Date-Manip"
+      "module" : "https://metacpan.org/release/Date-Manip",
+      "repo" : "https://github.com/SBECK-github/Date-Manip"
    },
    {
+      "assigned" : "https://github.com/mrcaron",
+      "author" : "https://metacpan.org/author/MATTP",
       "module" : "https://metacpan.org/release/Test-WWW-Selenium",
-      "repo" : "https://github.com/lukec/cpan-selenium-rc-perl",
-      "username" : "https://github.com/mrcaron",
-      "author" : "https://metacpan.org/author/MATTP"
+      "repo" : "https://github.com/lukec/cpan-selenium-rc-perl"
    },
    {
+      "assigned" : "https://github.com/jdodds",
       "author" : "https://metacpan.org/author/ABIGAIL",
-      "username" : "https://github.com/jdodds",
-      "repo" : "https://github.com/Abigail/Regexp--Common",
-      "module" : "https://metacpan.org/release/Regexp-Common"
+      "module" : "https://metacpan.org/release/Regexp-Common",
+      "repo" : "https://github.com/Abigail/Regexp--Common"
    },
    {
-      "repo" : "https://github.com/jbenjore/b-utils",
+      "assigned" : "https://github.com/Fransan",
+      "author" : "https://metacpan.org/author/JJORE",
       "module" : "https://metacpan.org/release/B-Utils",
-      "username" : "https://github.com/Fransan",
-      "author" : "https://metacpan.org/author/JJORE"
+      "repo" : "https://github.com/jbenjore/b-utils"
    },
    {
+      "assigned" : "https://github.com/moritz",
       "author" : "https://metacpan.org/author/CRENZ",
-      "username" : "https://github.com/moritz",
-      "repo" : "https://github.com/crenz/Module-Find",
-      "module" : "https://metacpan.org/release/Module-Find"
+      "module" : "https://metacpan.org/release/Module-Find",
+      "repo" : "https://github.com/crenz/Module-Find"
    },
    {
+      "assigned" : "https://github.com/gmatthew",
       "author" : "https://metacpan.org/author/JETTERO",
       "module" : "https://metacpan.org/release/Statistics-Basic",
-      "repo" : "https://github.com/jettero/statistics--basic",
-      "username" : "https://github.com/gmatthew"
+      "repo" : "https://github.com/jettero/statistics--basic"
    },
    {
+      "assigned" : "https://github.com/jonathaneunice",
       "author" : "https://metacpan.org/author/LAMMEL",
-      "username" : "https://github.com/jonathaneunice",
       "module" : "https://metacpan.org/release/MooseX-Log-Log4perl",
       "repo" : "https://github.com/lammel/moosex-log-log4perl"
    },
    {
-      "username" : "https://github.com/leejarvis",
+      "assigned" : "https://github.com/leejarvis",
+      "author" : "https://metacpan.org/author/PHAYLON",
       "module" : "https://metacpan.org/release/syntax",
-      "repo" : "https://github.com/phaylon/syntax",
-      "author" : "https://metacpan.org/author/PHAYLON"
+      "repo" : "https://github.com/phaylon/syntax"
    },
    {
-      "username" : "https://github.com/neil499",
-      "repo" : "https://github.com/bestpractical/config-gitlike",
+      "assigned" : "https://github.com/neil499",
+      "author" : "https://metacpan.org/author/ALEXMV",
       "module" : "https://metacpan.org/release/Config-GitLike",
-      "author" : "https://metacpan.org/author/ALEXMV"
+      "repo" : "https://github.com/bestpractical/config-gitlike"
    },
    {
-      "repo" : "https://github.com/jonathanstowe/TermReadKey",
+      "assigned" : "https://github.com/arpith",
+      "author" : "https://metacpan.org/author/JSTOWE",
       "module" : "https://metacpan.org/release/TermReadKey",
-      "username" : "https://github.com/arpith",
-      "author" : "https://metacpan.org/author/JSTOWE"
+      "repo" : "https://github.com/jonathanstowe/TermReadKey"
    },
    {
+      "assigned" : "https://github.com/mcleae",
       "author" : "https://metacpan.org/author/CHOCOLATE",
-      "username" : "https://github.com/mcleae",
       "module" : "https://metacpan.org/release/true",
       "repo" : "https://github.com/chocolateboy/true"
    },
    {
-      "repo" : "https://github.com/mirod/xmltwig",
+      "assigned" : "https://github.com/arsenerei",
+      "author" : "https://metacpan.org/author/MIROD",
       "module" : "https://metacpan.org/release/XML-Twig",
-      "username" : "https://github.com/arsenerei",
-      "author" : "https://metacpan.org/author/MIROD"
+      "repo" : "https://github.com/mirod/xmltwig"
    },
    {
+      "assigned" : "https://github.com/elmerq",
       "author" : "https://metacpan.org/author/CHROMATIC",
-      "repo" : "https://github.com/chromatic/Modern-Perl",
       "module" : "https://metacpan.org/release/Modern-Perl",
-      "username" : "https://github.com/elmerq"
+      "repo" : "https://github.com/chromatic/Modern-Perl"
    },
    {
+      "assigned" : "https://github.com/marderh",
+      "author" : "https://metacpan.org/author/JWB",
       "module" : "https://metacpan.org/release/Proc-ProcessTable",
-      "repo" : "https://github.com/jwbargsten/perl-proc-processtable",
-      "username" : "https://github.com/marderh",
-      "author" : "https://metacpan.org/author/JWB"
+      "repo" : "https://github.com/jwbargsten/perl-proc-processtable"
    },
    {
+      "assigned" : "https://github.com/ysp80",
+      "author" : "https://metacpan.org/author/REHSACK",
       "module" : "https://metacpan.org/release/SQL-Statement",
-      "repo" : "https://github.com/perl5-dbi/SQL-Statement",
-      "username" : "https://github.com/ysp80",
-      "author" : "https://metacpan.org/author/REHSACK"
+      "repo" : "https://github.com/perl5-dbi/SQL-Statement"
    },
    {
-      "username" : "https://github.com/cpeftw",
+      "assigned" : "https://github.com/cpeftw",
+      "author" : "https://metacpan.org/author/KWILLIAMS",
       "module" : "https://metacpan.org/release/Path-Class",
-      "repo" : "https://github.com/kenahoo/Path-Class",
-      "author" : "https://metacpan.org/author/KWILLIAMS"
+      "repo" : "https://github.com/kenahoo/Path-Class"
    },
    {
-      "username" : "https://github.com/rose",
-      "repo" : "https://github.com/pjf/ipc-system-simple",
+      "assigned" : "https://github.com/rose",
+      "author" : "https://metacpan.org/author/PJF",
       "module" : "https://metacpan.org/release/IPC-System-Simple",
-      "author" : "https://metacpan.org/author/PJF"
+      "repo" : "https://github.com/pjf/ipc-system-simple"
    },
    {
+      "assigned" : "https://github.com/alejandrodau",
+      "author" : "https://metacpan.org/author/DOUGW",
       "module" : "https://metacpan.org/release/Spreadsheet-ParseExcel",
-      "repo" : "https://github.com/runrig/spreadsheet-parseexcel",
-      "username" : "https://github.com/alejandrodau",
-      "author" : "https://metacpan.org/author/DOUGW"
+      "repo" : "https://github.com/runrig/spreadsheet-parseexcel"
    },
    {
+      "assigned" : "https://github.com/gryphonshafer",
       "author" : "https://metacpan.org/author/JQUELIN",
-      "username" : "https://github.com/gryphonshafer",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Test-Perl-Critic",
       "repo" : "https://github.com/jquelin/dist-zilla-plugin-test-perl-critic"
    },
    {
-      "username" : "https://github.com/tsibley",
+      "assigned" : "https://github.com/tsibley",
+      "author" : "https://metacpan.org/author/MITHALDU",
       "module" : "https://metacpan.org/release/PPI",
-      "repo" : "https://github.com/adamkennedy/PPI",
-      "author" : "https://metacpan.org/author/MITHALDU"
+      "repo" : "https://github.com/adamkennedy/PPI"
    },
    {
+      "assigned" : "https://github.com/netangel",
       "author" : "https://metacpan.org/author/BRICAS",
-      "repo" : "https://github.com/bricas/uri-template",
       "module" : "https://metacpan.org/release/URI-Template",
-      "username" : "https://github.com/netangel"
+      "repo" : "https://github.com/bricas/uri-template"
    },
    {
+      "assigned" : "https://github.com/Viviparous",
       "author" : "https://metacpan.org/author/MATTN",
-      "username" : "https://github.com/Viviparous",
-      "repo" : "https://github.com/mattn/p5-Devel-CheckLib",
-      "module" : "https://metacpan.org/release/Devel-CheckLib"
+      "module" : "https://metacpan.org/release/Devel-CheckLib",
+      "repo" : "https://github.com/mattn/p5-Devel-CheckLib"
    },
    {
+      "assigned" : "https://github.com/markmontymark",
       "author" : "https://metacpan.org/author/NANIS",
-      "username" : "https://github.com/markmontymark",
-      "repo" : "https://github.com/nanis/Crypt-SSLeay",
-      "module" : "https://metacpan.org/release/Crypt-SSLeay"
+      "module" : "https://metacpan.org/release/Crypt-SSLeay",
+      "repo" : "https://github.com/nanis/Crypt-SSLeay"
    },
    {
-      "repo" : "https://github.com/kraih/text-simpletable/tree/master",
+      "assigned" : "https://github.com/pjsg",
+      "author" : "https://metacpan.org/author/MRAMBERG",
       "module" : "https://metacpan.org/release/Text-SimpleTable",
-      "username" : "https://github.com/pjsg",
-      "author" : "https://metacpan.org/author/MRAMBERG"
+      "repo" : "https://github.com/kraih/text-simpletable/tree/master"
    },
    {
+      "assigned" : "https://github.com/ctfliblime",
       "author" : "https://metacpan.org/author/PJCJ",
-      "username" : "https://github.com/ctfliblime",
       "module" : "https://metacpan.org/release/Devel-Cover",
       "repo" : "https://github.com/pjcj/Devel--Cover"
    },
    {
+      "assigned" : "https://github.com/bk",
       "author" : "https://metacpan.org/author/DRTECH",
-      "username" : "https://github.com/bk",
-      "repo" : "https://github.com/clintongormley/locale-maketext-lexicon",
-      "module" : "https://metacpan.org/release/Locale-Maketext-Lexicon"
+      "module" : "https://metacpan.org/release/Locale-Maketext-Lexicon",
+      "repo" : "https://github.com/clintongormley/locale-maketext-lexicon"
    },
    {
-      "username" : "https://github.com/adelq",
-      "repo" : "https://github.com/maddingue/Net-Pcap",
+      "assigned" : "https://github.com/adelq",
+      "author" : "https://metacpan.org/author/SAPER",
       "module" : "https://metacpan.org/release/Net-Pcap",
-      "author" : "https://metacpan.org/author/SAPER"
+      "repo" : "https://github.com/maddingue/Net-Pcap"
    },
    {
-      "username" : "https://github.com/americanwookie",
-      "repo" : "https://github.com/dolmen/p5-Dist-Zilla-Plugin-ReportVersions-Tiny",
+      "assigned" : "https://github.com/americanwookie",
+      "author" : "https://metacpan.org/author/DOLMEN",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-ReportVersions-Tiny",
-      "author" : "https://metacpan.org/author/DOLMEN"
+      "repo" : "https://github.com/dolmen/p5-Dist-Zilla-Plugin-ReportVersions-Tiny"
    },
    {
+      "assigned" : "https://github.com/Nastassia",
+      "author" : "https://metacpan.org/author/MUIR",
       "module" : "https://metacpan.org/release/Time-ParseDate",
-      "repo" : "https://github.com/muir/Time-modules",
-      "username" : "https://github.com/Nastassia",
-      "author" : "https://metacpan.org/author/MUIR"
+      "repo" : "https://github.com/muir/Time-modules"
    },
    {
-      "repo" : "https://github.com/sisyphus/filehandle-fmode",
+      "assigned" : "https://github.com/agranig",
+      "author" : "https://metacpan.org/author/SISYPHUS",
       "module" : "https://metacpan.org/release/FileHandle-Fmode",
-      "username" : "https://github.com/agranig",
-      "author" : "https://metacpan.org/author/SISYPHUS"
+      "repo" : "https://github.com/sisyphus/filehandle-fmode"
    },
    {
+      "assigned" : "https://github.com/genehack",
+      "author" : "https://metacpan.org/author/LEONT",
       "module" : "https://metacpan.org/release/Sys-Sendfile",
-      "repo" : "https://github.com/Leont/sys-sendfile",
-      "username" : "https://github.com/genehack",
-      "author" : "https://metacpan.org/author/LEONT"
+      "repo" : "https://github.com/Leont/sys-sendfile"
    },
    {
+      "assigned" : "https://github.com/nshp",
       "author" : "https://metacpan.org/author/KHAMPTON",
-      "username" : "https://github.com/nshp",
-      "repo" : "https://github.com/ubu/xml-generator-perldata",
-      "module" : "https://metacpan.org/release/XML-Generator-PerlData"
+      "module" : "https://metacpan.org/release/XML-Generator-PerlData",
+      "repo" : "https://github.com/ubu/xml-generator-perldata"
    },
    {
-      "username" : "https://github.com/titanofold",
-      "repo" : "https://github.com/mjgardner/Dist-Zilla-Plugin-RequiresExternal",
+      "assigned" : "https://github.com/titanofold",
+      "author" : "https://metacpan.org/author/MJGARDNER",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-RequiresExternal",
-      "author" : "https://metacpan.org/author/MJGARDNER"
+      "repo" : "https://github.com/mjgardner/Dist-Zilla-Plugin-RequiresExternal"
    },
    {
+      "assigned" : "https://github.com/sergiofbsilva",
+      "author" : "https://metacpan.org/author/EINHVERFR",
       "module" : "https://metacpan.org/release/LaTeX-Driver",
-      "repo" : "https://github.com/fordmason/LaTeX-Driver",
-      "username" : "https://github.com/sergiofbsilva",
-      "author" : "https://metacpan.org/author/EINHVERFR"
+      "repo" : "https://github.com/fordmason/LaTeX-Driver"
    },
    {
+      "assigned" : "https://github.com/dhuzz",
+      "author" : "https://metacpan.org/author/DRAEGTUN",
       "module" : "https://metacpan.org/release/PerlX-QuoteOperator",
-      "repo" : "https://github.com/draegtun/PerlX-QuoteOperator",
-      "username" : "https://github.com/dhuzz",
-      "author" : "https://metacpan.org/author/DRAEGTUN"
+      "repo" : "https://github.com/draegtun/PerlX-QuoteOperator"
    },
    {
-      "username" : "https://github.com/davecardwell",
+      "assigned" : "https://github.com/davecardwell",
+      "author" : "https://metacpan.org/author/ZIGOROU",
       "module" : "https://metacpan.org/release/DBIx-DBHResolver",
-      "repo" : "https://github.com/arisawa/p5-dbix-dbhresolver",
-      "author" : "https://metacpan.org/author/ZIGOROU"
+      "repo" : "https://github.com/arisawa/p5-dbix-dbhresolver"
    },
    {
+      "assigned" : "https://github.com/fibo",
       "author" : "https://metacpan.org/author/FIBO",
-      "repo" : "https://github.com/avar/bot-training",
       "module" : "https://metacpan.org/release/Bot-Training",
-      "username" : "https://github.com/fibo"
+      "repo" : "https://github.com/avar/bot-training"
    },
    {
+      "assigned" : "https://github.com/eam",
       "author" : "https://metacpan.org/author/ALEXBIO",
-      "username" : "https://github.com/eam",
-      "repo" : "https://github.com/ghedo/p5-Dist-Zilla-Plugin-Clean",
-      "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Clean"
+      "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Clean",
+      "repo" : "https://github.com/ghedo/p5-Dist-Zilla-Plugin-Clean"
    },
    {
+      "assigned" : "https://github.com/gjtorikian",
       "author" : "https://metacpan.org/author/JROCKWAY",
-      "repo" : "https://github.com/jrockway/anyevent-zeromq",
       "module" : "https://metacpan.org/release/AnyEvent-ZeroMQ",
-      "username" : "https://github.com/gjtorikian"
+      "repo" : "https://github.com/jrockway/anyevent-zeromq"
    },
    {
-      "repo" : "https://github.com/reneeb/Test-CheckManifest",
+      "assigned" : "https://github.com/hoytech",
+      "author" : "https://metacpan.org/author/RENEEB",
       "module" : "https://metacpan.org/release/Test-CheckManifest",
-      "username" : "https://github.com/hoytech",
-      "author" : "https://metacpan.org/author/RENEEB"
+      "repo" : "https://github.com/reneeb/Test-CheckManifest"
    },
    {
+      "assigned" : "https://github.com/ediblenergy",
       "author" : "https://metacpan.org/author/IDOPEREL",
-      "username" : "https://github.com/ediblenergy",
-      "repo" : "https://github.com/ido50/WWW-Postmark",
-      "module" : "https://metacpan.org/release/WWW-Postmark"
+      "module" : "https://metacpan.org/release/WWW-Postmark",
+      "repo" : "https://github.com/ido50/WWW-Postmark"
    },
    {
+      "assigned" : "https://github.com/logie17",
+      "author" : "https://metacpan.org/author/PNU",
       "module" : "https://metacpan.org/release/Plack-Middleware-Image-Scale",
-      "repo" : "https://github.com/pnu/Plack-Middleware-Image-Scale",
-      "username" : "https://github.com/logie17",
-      "author" : "https://metacpan.org/author/PNU"
+      "repo" : "https://github.com/pnu/Plack-Middleware-Image-Scale"
    },
    {
+      "assigned" : "https://github.com/cgoettel",
       "author" : "https://metacpan.org/author/ODYNIEC",
-      "username" : "https://github.com/cgoettel",
-      "repo" : "https://github.com/odyniec/p5-Dancer-Plugin-Preprocess-Sass",
-      "module" : "https://metacpan.org/release/Dancer-Plugin-Preprocess-Sass"
+      "module" : "https://metacpan.org/release/Dancer-Plugin-Preprocess-Sass",
+      "repo" : "https://github.com/odyniec/p5-Dancer-Plugin-Preprocess-Sass"
    },
    {
+      "assigned" : "https://github.com/teancom",
       "author" : "https://metacpan.org/author/KAZEBURO",
-      "username" : "https://github.com/teancom",
       "module" : "https://metacpan.org/release/JavaScript-Value-Escape",
       "repo" : "https://github.com/kazeburo/JavaScript-Value-Escape"
    },
    {
-      "username" : "https://github.com/ivanstojic",
+      "assigned" : "https://github.com/ivanstojic",
+      "author" : "https://metacpan.org/author/DOHERTY",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Test-UnusedVars",
-      "repo" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars",
-      "author" : "https://metacpan.org/author/DOHERTY"
+      "repo" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars"
    },
    {
-      "repo" : "https://github.com/DrHyde/perl-modules-Data-Compare",
+      "assigned" : "https://github.com/Captainkrtek",
+      "author" : "https://metacpan.org/author/DCANTRELL",
       "module" : "https://metacpan.org/release/Data-Compare",
-      "username" : "https://github.com/Captainkrtek",
-      "author" : "https://metacpan.org/author/DCANTRELL"
+      "repo" : "https://github.com/DrHyde/perl-modules-Data-Compare"
    },
    {
+      "assigned" : "https://github.com/davidfluck",
       "author" : "https://metacpan.org/author/KARMAN",
-      "username" : "https://github.com/davidfluck",
       "module" : "https://metacpan.org/release/Search-Tools",
       "repo" : "https://github.com/karpet/search-tools-perl"
    },
    {
+      "assigned" : "https://github.com/kanatohodets",
       "author" : "https://metacpan.org/author/RWSTAUNER",
-      "repo" : "https://github.com/rwstauner/Dist-Zilla-Config-Slicer",
       "module" : "https://metacpan.org/release/Dist-Zilla-Config-Slicer",
-      "username" : "https://github.com/kanatohodets"
+      "repo" : "https://github.com/rwstauner/Dist-Zilla-Config-Slicer"
    },
    {
-      "username" : "https://github.com/rviana",
+      "assigned" : "https://github.com/rviana",
+      "author" : "https://metacpan.org/author/SCHWIGON",
       "module" : "https://metacpan.org/release/App-DPath",
-      "repo" : "https://github.com/renormalist/app-dpath",
-      "author" : "https://metacpan.org/author/SCHWIGON"
+      "repo" : "https://github.com/renormalist/app-dpath"
    },
    {
-      "username" : "https://github.com/caipre",
+      "assigned" : "https://github.com/caipre",
+      "author" : "https://metacpan.org/author/TINITA",
       "module" : "https://metacpan.org/release/HTML-Template-Compiled",
-      "repo" : "https://github.com/perlpunk/HTML-Template-Compiled",
-      "author" : "https://metacpan.org/author/TINITA"
+      "repo" : "https://github.com/perlpunk/HTML-Template-Compiled"
    },
    {
+      "assigned" : "https://github.com/melo",
       "author" : "https://metacpan.org/author/TOBYINK",
       "module" : "https://metacpan.org/release/RDF-TrineX-Serializer-MockTurtleSoup",
-      "repo" : "https://github.com/tobyink/p5-rdf-trinex-serializer-mockturtlesoup",
-      "username" : "https://github.com/melo"
+      "repo" : "https://github.com/tobyink/p5-rdf-trinex-serializer-mockturtlesoup"
    },
    {
-      "repo" : "https://github.com/zoffixznet/javascript-minifier",
+      "assigned" : "https://github.com/wenderen",
+      "author" : "https://metacpan.org/author/ZOFFIX",
       "module" : "https://metacpan.org/release/JavaScript-Minifier",
-      "username" : "https://github.com/wenderen",
-      "author" : "https://metacpan.org/author/ZOFFIX"
+      "repo" : "https://github.com/zoffixznet/javascript-minifier"
    },
    {
-      "repo" : "https://github.com/btrott/XML-FOAF",
+      "assigned" : "https://github.com/jevinskie",
+      "author" : "https://metacpan.org/author/BTROTT",
       "module" : "https://metacpan.org/release/XML-FOAF",
-      "username" : "https://github.com/jevinskie",
-      "author" : "https://metacpan.org/author/BTROTT"
+      "repo" : "https://github.com/btrott/XML-FOAF"
    },
    {
-      "repo" : "https://github.com/benvanstaveren/Mojolicious-Plugin-Authentication",
+      "assigned" : "https://github.com/gmunoz",
+      "author" : "https://metacpan.org/author/MADCAT",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-Authentication",
-      "username" : "https://github.com/gmunoz",
-      "author" : "https://metacpan.org/author/MADCAT"
+      "repo" : "https://github.com/benvanstaveren/Mojolicious-Plugin-Authentication"
    },
    {
+      "assigned" : "https://github.com/MasterDuke17",
+      "author" : "https://metacpan.org/author/PMAKHOLM",
       "module" : "https://metacpan.org/release/AnyEvent-JSONRPC",
-      "repo" : "https://github.com/pmakholm/anyevent-jsonrpc-perl",
-      "username" : "https://github.com/MasterDuke17",
-      "author" : "https://metacpan.org/author/PMAKHOLM"
+      "repo" : "https://github.com/pmakholm/anyevent-jsonrpc-perl"
    },
    {
-      "repo" : "https://github.com/cebjyre/Test-ConsistentVersion",
+      "assigned" : "https://github.com/wreis",
+      "author" : "https://metacpan.org/author/CEBJYRE",
       "module" : "https://metacpan.org/release/Test-ConsistentVersion",
-      "username" : "https://github.com/wreis",
-      "author" : "https://metacpan.org/author/CEBJYRE"
+      "repo" : "https://github.com/cebjyre/Test-ConsistentVersion"
    },
    {
+      "assigned" : "https://github.com/rstrong",
       "author" : "https://metacpan.org/author/YAPPO",
-      "repo" : "https://github.com/yappo/p5-HTML-StickyQuery-DoCoMoGUID",
       "module" : "https://metacpan.org/release/HTML-StickyQuery-DoCoMoGUID",
-      "username" : "https://github.com/rstrong"
+      "repo" : "https://github.com/yappo/p5-HTML-StickyQuery-DoCoMoGUID"
    },
    {
-      "username" : "https://github.com/pschorf",
-      "repo" : "https://github.com/mla/text-forge",
+      "assigned" : "https://github.com/pschorf",
+      "author" : "https://metacpan.org/author/MAURICE",
       "module" : "https://metacpan.org/release/Text-Forge",
-      "author" : "https://metacpan.org/author/MAURICE"
+      "repo" : "https://github.com/mla/text-forge"
    },
    {
+      "assigned" : "https://github.com/schoukri",
       "author" : "https://metacpan.org/author/TAPPER",
       "module" : "https://metacpan.org/release/Tapper-Schema",
-      "repo" : "https://github.com/tapper/Tapper-Schema",
-      "username" : "https://github.com/schoukri"
+      "repo" : "https://github.com/tapper/Tapper-Schema"
    },
    {
-      "username" : "https://github.com/alx542",
-      "repo" : "https://github.com/adamtaylor/Dancer-Plugin-Mongo",
+      "assigned" : "https://github.com/alx542",
+      "author" : "https://metacpan.org/author/AJCT",
       "module" : "https://metacpan.org/release/Dancer-Plugin-Mongo",
-      "author" : "https://metacpan.org/author/AJCT"
+      "repo" : "https://github.com/adamtaylor/Dancer-Plugin-Mongo"
    },
    {
-      "username" : "https://github.com/mishagale",
-      "repo" : "https://github.com/AndyA/Devel--LeakGuard--Object",
+      "assigned" : "https://github.com/mishagale",
+      "author" : "https://metacpan.org/author/ANDYA",
       "module" : "https://metacpan.org/release/Devel-LeakGuard-Object",
-      "author" : "https://metacpan.org/author/ANDYA"
+      "repo" : "https://github.com/AndyA/Devel--LeakGuard--Object"
    },
    {
+      "assigned" : "https://github.com/lukaszzdanikowski",
       "author" : "https://metacpan.org/author/SDECASTE",
-      "repo" : "https://github.com/sdecastelberg/Plack-Middleware-Debug-Profiler-NYTProf",
       "module" : "https://metacpan.org/release/Plack-Middleware-Debug-Profiler-NYTProf",
-      "username" : "https://github.com/lukaszzdanikowski"
+      "repo" : "https://github.com/sdecastelberg/Plack-Middleware-Debug-Profiler-NYTProf"
    },
    {
+      "assigned" : "https://github.com/saberworks",
       "author" : "https://metacpan.org/author/JKUTEJ",
-      "username" : "https://github.com/saberworks",
-      "repo" : "https://github.com/jozef/Module-Build-SysPath",
-      "module" : "https://metacpan.org/release/Module-Build-SysPath"
+      "module" : "https://metacpan.org/release/Module-Build-SysPath",
+      "repo" : "https://github.com/jozef/Module-Build-SysPath"
    },
    {
+      "assigned" : "https://github.com/cavemanpi",
+      "author" : "https://metacpan.org/author/BBYRD",
       "module" : "https://metacpan.org/release/Dist-Zilla-PluginBundle-Prereqs",
-      "repo" : "https://github.com/SineSwiper/Dist-Zilla-PluginBundle-Prereqs",
-      "username" : "https://github.com/cavemanpi",
-      "author" : "https://metacpan.org/author/BBYRD"
+      "repo" : "https://github.com/SineSwiper/Dist-Zilla-PluginBundle-Prereqs"
    },
    {
-      "repo" : "https://github.com/rjeschmi/Archive-BagIt",
+      "assigned" : "https://github.com/rblackwe",
+      "author" : "https://metacpan.org/author/RJESCHMI",
       "module" : "https://metacpan.org/release/Archive-BagIt",
-      "username" : "https://github.com/rblackwe",
-      "author" : "https://metacpan.org/author/RJESCHMI"
+      "repo" : "https://github.com/rjeschmi/Archive-BagIt"
    },
    {
+      "assigned" : "https://github.com/0xdco",
       "author" : "https://metacpan.org/author/KENTNL",
-      "username" : "https://github.com/0xdco",
       "module" : "https://metacpan.org/release/File-ShareDir-ProjectDistDir",
       "repo" : "https://github.com/kentnl/File-ShareDir-ProjectDistDir"
    },
    {
-      "username" : "https://github.com/senorsmile",
-      "repo" : "https://github.com/drzowie/PDL-Graphics-Gnuplot",
+      "assigned" : "https://github.com/senorsmile",
+      "author" : "https://metacpan.org/author/ZOWIE",
       "module" : "https://metacpan.org/release/PDL-Graphics-Gnuplot",
-      "author" : "https://metacpan.org/author/ZOWIE"
+      "repo" : "https://github.com/drzowie/PDL-Graphics-Gnuplot"
    },
    {
-      "repo" : "https://github.com/fglock/DateTime-Set",
+      "assigned" : "https://github.com/paraplexed",
+      "author" : "https://metacpan.org/author/FGLOCK",
       "module" : "https://metacpan.org/release/DateTime-Set",
-      "username" : "https://github.com/paraplexed",
-      "author" : "https://metacpan.org/author/FGLOCK"
+      "repo" : "https://github.com/fglock/DateTime-Set"
    },
    {
+      "assigned" : "https://github.com/kamanufred",
       "author" : "https://metacpan.org/author/CHISEL",
-      "username" : "https://github.com/kamanufred",
-      "repo" : "https://github.com/chiselwright/catalyst-plugin-errorcatcher",
-      "module" : "https://metacpan.org/release/Catalyst-Plugin-ErrorCatcher"
+      "module" : "https://metacpan.org/release/Catalyst-Plugin-ErrorCatcher",
+      "repo" : "https://github.com/chiselwright/catalyst-plugin-errorcatcher"
    },
    {
+      "assigned" : "https://github.com/merrilymeredith",
       "author" : "https://metacpan.org/author/PVANDE",
       "module" : "https://metacpan.org/release/Test-Mini",
-      "repo" : "https://github.com/pvande/Test-Mini",
-      "username" : "https://github.com/merrilymeredith"
+      "repo" : "https://github.com/pvande/Test-Mini"
    },
    {
-      "username" : "https://github.com/brownl",
+      "assigned" : "https://github.com/brownl",
+      "author" : "https://metacpan.org/author/STEPHEN",
       "module" : "https://metacpan.org/release/Video-Xine",
-      "repo" : "https://github.com/stephenenelson/video-xine",
-      "author" : "https://metacpan.org/author/STEPHEN"
+      "repo" : "https://github.com/stephenenelson/video-xine"
    },
    {
-      "username" : "https://github.com/legrady",
+      "assigned" : "https://github.com/legrady",
+      "author" : "https://metacpan.org/author/RGARCIA",
       "module" : "https://metacpan.org/release/Test-LongString",
-      "repo" : "https://github.com/rgs/Test-LongString",
-      "author" : "https://metacpan.org/author/RGARCIA"
+      "repo" : "https://github.com/rgs/Test-LongString"
    },
    {
+      "assigned" : "https://github.com/Vadskye",
       "author" : "https://metacpan.org/author/LOGIE",
-      "repo" : "https://github.com/belden/perl-test-easy",
       "module" : "https://metacpan.org/release/Test-Easy",
-      "username" : "https://github.com/Vadskye"
+      "repo" : "https://github.com/belden/perl-test-easy"
    },
    {
+      "assigned" : "https://github.com/esyphelon",
       "author" : "https://metacpan.org/author/AMBS",
-      "username" : "https://github.com/esyphelon",
-      "repo" : "https://github.com/bigpresh/Dancer-Plugin-Database",
-      "module" : "https://metacpan.org/release/Dancer2-Plugin-Database"
+      "module" : "https://metacpan.org/release/Dancer2-Plugin-Database",
+      "repo" : "https://github.com/bigpresh/Dancer-Plugin-Database"
    },
    {
-      "username" : "https://github.com/diocles",
+      "assigned" : "https://github.com/diocles",
+      "author" : "https://metacpan.org/author/CLKAO",
       "module" : "https://metacpan.org/release/IO-Digest",
-      "repo" : "https://github.com/clkao/IO-Digest",
-      "author" : "https://metacpan.org/author/CLKAO"
+      "repo" : "https://github.com/clkao/IO-Digest"
    },
    {
-      "repo" : "https://github.com/vanstyn/Email-MIME-CreateHTML",
+      "assigned" : "https://github.com/cblake777",
+      "author" : "https://metacpan.org/author/VANSTYN",
       "module" : "https://metacpan.org/release/Email-MIME-CreateHTML",
-      "username" : "https://github.com/cblake777",
-      "author" : "https://metacpan.org/author/VANSTYN"
+      "repo" : "https://github.com/vanstyn/Email-MIME-CreateHTML"
    },
    {
+      "assigned" : "https://github.com/ehalm",
       "author" : "https://metacpan.org/author/HMBRAND",
-      "repo" : "https://github.com/perl5-dbi/DBD-CSV",
       "module" : "https://metacpan.org/release/DBD-CSV",
-      "username" : "https://github.com/ehalm"
+      "repo" : "https://github.com/perl5-dbi/DBD-CSV"
    },
    {
-      "username" : "https://github.com/pilcrow",
+      "assigned" : "https://github.com/pilcrow",
+      "author" : "https://metacpan.org/author/VTI",
       "module" : "https://metacpan.org/release/MojoX-Validator",
-      "repo" : "https://github.com/vti/mojox-validator",
-      "author" : "https://metacpan.org/author/VTI"
+      "repo" : "https://github.com/vti/mojox-validator"
    },
    {
-      "username" : "https://github.com/mstreuhofer",
+      "assigned" : "https://github.com/mstreuhofer",
+      "author" : "https://metacpan.org/author/YOSHIMI",
       "module" : "https://metacpan.org/release/Plack-Middleware-DoCoMoGUID",
-      "repo" : "https://github.com/walf443/p5-plack-middleware-docomoguid",
-      "author" : "https://metacpan.org/author/YOSHIMI"
+      "repo" : "https://github.com/walf443/p5-plack-middleware-docomoguid"
    },
    {
+      "assigned" : "https://github.com/danielki33",
+      "author" : "https://metacpan.org/author/DGL",
       "module" : "https://metacpan.org/release/JavaScript-V8",
-      "repo" : "https://github.com/dgl/javascript-v8",
-      "username" : "https://github.com/danielki33",
-      "author" : "https://metacpan.org/author/DGL"
+      "repo" : "https://github.com/dgl/javascript-v8"
    },
    {
+      "assigned" : "https://github.com/Tordek",
       "author" : "https://metacpan.org/author/RUZ",
-      "username" : "https://github.com/Tordek",
-      "repo" : "https://github.com/ruz/GDGraph",
-      "module" : "https://metacpan.org/release/GDGraph"
+      "module" : "https://metacpan.org/release/GDGraph",
+      "repo" : "https://github.com/ruz/GDGraph"
    },
    {
+      "assigned" : "https://github.com/ojotoxy",
+      "author" : "https://metacpan.org/author/CHILTS",
       "module" : "https://metacpan.org/release/XML-Compare",
-      "repo" : "https://github.com/catalyst/XML-Compare",
-      "username" : "https://github.com/ojotoxy",
-      "author" : "https://metacpan.org/author/CHILTS"
+      "repo" : "https://github.com/catalyst/XML-Compare"
    },
    {
-      "username" : "https://github.com/muth",
+      "assigned" : "https://github.com/muth",
+      "author" : "https://metacpan.org/author/BARBIE",
       "module" : "https://metacpan.org/release/Test-CPAN-Meta",
-      "repo" : "https://github.com/barbie/Test-CPAN-Meta",
-      "author" : "https://metacpan.org/author/BARBIE"
+      "repo" : "https://github.com/barbie/Test-CPAN-Meta"
    },
    {
+      "assigned" : "https://github.com/herveus",
       "author" : "https://metacpan.org/author/JCOP",
       "module" : "https://metacpan.org/release/Pod-WSDL",
-      "repo" : "https://github.com/tavaresb/Pod--WSDL",
-      "username" : "https://github.com/herveus"
+      "repo" : "https://github.com/tavaresb/Pod--WSDL"
    },
    {
-      "repo" : "https://github.com/hinrik/poe-component-irc-plugin-hailo",
+      "assigned" : "https://github.com/kbenson",
+      "author" : "https://metacpan.org/author/HINRIK",
       "module" : "https://metacpan.org/release/POE-Component-IRC-Plugin-Hailo",
-      "username" : "https://github.com/kbenson",
-      "author" : "https://metacpan.org/author/HINRIK"
+      "repo" : "https://github.com/hinrik/poe-component-irc-plugin-hailo"
    },
    {
-      "repo" : "https://github.com/cosimo/perl5-win32-api",
+      "assigned" : "https://github.com/mcsnolte",
+      "author" : "https://metacpan.org/author/BULKDD",
       "module" : "https://metacpan.org/release/Win32-API",
-      "username" : "https://github.com/mcsnolte",
-      "author" : "https://metacpan.org/author/BULKDD"
+      "repo" : "https://github.com/cosimo/perl5-win32-api"
    },
    {
+      "assigned" : "https://github.com/linuxgeek96",
       "author" : "https://metacpan.org/author/EMAZEP",
-      "username" : "https://github.com/linuxgeek96",
-      "repo" : "https://github.com/emazep/SQL-SplitStatement",
-      "module" : "https://metacpan.org/release/SQL-SplitStatement"
+      "module" : "https://metacpan.org/release/SQL-SplitStatement",
+      "repo" : "https://github.com/emazep/SQL-SplitStatement"
    },
    {
+      "assigned" : "https://github.com/hjkatz",
       "author" : "https://metacpan.org/author/JSWARTZ",
-      "username" : "https://github.com/hjkatz",
-      "repo" : "https://github.com/jonswar/perl-poet",
-      "module" : "https://metacpan.org/release/Poet"
+      "module" : "https://metacpan.org/release/Poet",
+      "repo" : "https://github.com/jonswar/perl-poet"
    },
    {
+      "assigned" : "https://github.com/athos-ribeiro",
+      "author" : "https://metacpan.org/author/CORNELIUS",
       "module" : "https://metacpan.org/release/Vimana",
-      "repo" : "https://github.com/c9s/Vimana",
-      "username" : "https://github.com/athos-ribeiro",
-      "author" : "https://metacpan.org/author/CORNELIUS"
+      "repo" : "https://github.com/c9s/Vimana"
    },
    {
+      "assigned" : "https://github.com/jashank",
       "author" : "https://metacpan.org/author/MONGODB",
-      "repo" : "https://github.com/mongodb/mongo-perl-driver",
       "module" : "https://metacpan.org/release/MongoDB",
-      "username" : "https://github.com/jashank"
+      "repo" : "https://github.com/mongodb/mongo-perl-driver"
    },
    {
-      "repo" : "https://github.com/arodland/Unicode-CaseFold",
+      "assigned" : "https://github.com/ankitvad",
+      "author" : "https://metacpan.org/author/ARODLAND",
       "module" : "https://metacpan.org/release/Unicode-CaseFold",
-      "username" : "https://github.com/ankitvad",
-      "author" : "https://metacpan.org/author/ARODLAND"
+      "repo" : "https://github.com/arodland/Unicode-CaseFold"
    },
    {
+      "assigned" : "https://github.com/robertodealmeida",
       "author" : "https://metacpan.org/author/VOJ",
-      "username" : "https://github.com/robertodealmeida",
-      "repo" : "https://github.com/gbv",
-      "module" : "https://metacpan.org/release/SeeAlso-Server"
+      "module" : "https://metacpan.org/release/SeeAlso-Server",
+      "repo" : "https://github.com/gbv"
    },
    {
+      "assigned" : "https://github.com/timgimyee",
       "author" : "https://metacpan.org/author/MORIYA",
-      "username" : "https://github.com/timgimyee",
       "module" : "https://metacpan.org/release/MooseX-Types-Locale-Country",
       "repo" : "https://github.com/gardejo/p5-moosex-types-locale-country"
    },
    {
+      "assigned" : "https://github.com/jbarrett",
       "author" : "https://metacpan.org/author/ZENTOOO",
-      "username" : "https://github.com/jbarrett",
-      "repo" : "https://github.com/zentooo/p5-plack-app-proxy-selective",
-      "module" : "https://metacpan.org/release/Plack-App-Proxy-Selective"
+      "module" : "https://metacpan.org/release/Plack-App-Proxy-Selective",
+      "repo" : "https://github.com/zentooo/p5-plack-app-proxy-selective"
    },
    {
+      "assigned" : "https://github.com/bugdebugger",
       "author" : "https://metacpan.org/author/BROQ",
-      "username" : "https://github.com/bugdebugger",
       "module" : "https://metacpan.org/release/Git-PurePerl",
       "repo" : "https://github.com/bobtfish/git-pureperl"
    },
    {
+      "assigned" : "https://github.com/devogon",
       "author" : "https://metacpan.org/author/PLICEASE",
-      "username" : "https://github.com/devogon",
-      "repo" : "https://github.com/Perl5-Alien/Alien-Base",
-      "module" : "https://metacpan.org/release/Alien-Base"
+      "module" : "https://metacpan.org/release/Alien-Base",
+      "repo" : "https://github.com/Perl5-Alien/Alien-Base"
    },
    {
-      "repo" : "https://github.com/scrottie/autobox-Core",
+      "assigned" : "https://github.com/ablagoev",
+      "author" : "https://metacpan.org/author/SWALTERS",
       "module" : "https://metacpan.org/release/autobox-Core",
-      "username" : "https://github.com/ablagoev",
-      "author" : "https://metacpan.org/author/SWALTERS"
+      "repo" : "https://github.com/scrottie/autobox-Core"
    },
    {
+      "assigned" : "https://github.com/jscook",
       "author" : "https://metacpan.org/author/AUBERTG",
-      "username" : "https://github.com/jscook",
       "module" : "https://metacpan.org/release/Data-Validate-Type",
       "repo" : "https://github.com/guillaumeaubert/Data-Validate-Type"
    },
    {
+      "assigned" : "https://github.com/pushingit",
       "author" : "https://metacpan.org/author/MMCLERIC",
       "module" : "https://metacpan.org/release/Ubic-Service-Plack",
-      "repo" : "https://github.com/tadam/Ubic-Service-Plack",
-      "username" : "https://github.com/pushingit"
+      "repo" : "https://github.com/tadam/Ubic-Service-Plack"
    },
    {
-      "username" : "https://github.com/javadi82",
+      "assigned" : "https://github.com/javadi82",
+      "author" : "https://metacpan.org/author/UNOBE",
       "module" : "https://metacpan.org/release/WWW-Facebook-API",
-      "repo" : "https://github.com/unobe/perl-wfa",
-      "author" : "https://metacpan.org/author/UNOBE"
+      "repo" : "https://github.com/unobe/perl-wfa"
    },
    {
-      "username" : "https://github.com/xplusinfinity",
-      "repo" : "https://github.com/stevan/Path-Router",
+      "assigned" : "https://github.com/xplusinfinity",
+      "author" : "https://metacpan.org/author/STEVAN",
       "module" : "https://metacpan.org/release/Path-Router",
-      "author" : "https://metacpan.org/author/STEVAN"
+      "repo" : "https://github.com/stevan/Path-Router"
    },
    {
-      "username" : "https://github.com/eellpp",
-      "repo" : "https://github.com/robertkrimen/path-resource/tree/master",
+      "assigned" : "https://github.com/eellpp",
+      "author" : "https://metacpan.org/author/RKRIMEN",
       "module" : "https://metacpan.org/release/Path-Resource",
-      "author" : "https://metacpan.org/author/RKRIMEN"
+      "repo" : "https://github.com/robertkrimen/path-resource/tree/master"
    },
    {
+      "assigned" : "https://github.com/Srynobio",
       "author" : "https://metacpan.org/author/DAVIDO",
-      "repo" : "https://github.com/daoswald/Set-Scalar",
       "module" : "https://metacpan.org/release/Set-Scalar",
-      "username" : "https://github.com/Srynobio"
+      "repo" : "https://github.com/daoswald/Set-Scalar"
    },
    {
-      "username" : "https://github.com/graytshirt",
-      "repo" : "https://github.com/bluefeet/MooseX-Types-Data-Serializer",
+      "assigned" : "https://github.com/graytshirt",
+      "author" : "https://metacpan.org/author/BLUEFEET",
       "module" : "https://metacpan.org/release/MooseX-Types-Data-Serializer",
-      "author" : "https://metacpan.org/author/BLUEFEET"
+      "repo" : "https://github.com/bluefeet/MooseX-Types-Data-Serializer"
    },
    {
-      "repo" : "https://github.com/karupanerura/p5-AnyEvent-ForkManager",
+      "assigned" : "https://github.com/ajdecon",
+      "author" : "https://metacpan.org/author/KARUPA",
       "module" : "https://metacpan.org/release/AnyEvent-ForkManager",
-      "username" : "https://github.com/ajdecon",
-      "author" : "https://metacpan.org/author/KARUPA"
+      "repo" : "https://github.com/karupanerura/p5-AnyEvent-ForkManager"
    },
    {
-      "username" : "https://github.com/Gimpson",
+      "assigned" : "https://github.com/Gimpson",
+      "author" : "https://metacpan.org/author/RKITOVER",
       "module" : "https://metacpan.org/release/URI-SmartURI",
-      "repo" : "https://github.com/rkitover/uri-smarturi",
-      "author" : "https://metacpan.org/author/RKITOVER"
+      "repo" : "https://github.com/rkitover/uri-smarturi"
    },
    {
-      "repo" : "https://github.com/RexOps/Rex",
+      "assigned" : "https://github.com/polera",
+      "author" : "https://metacpan.org/author/JFRIED",
       "module" : "https://metacpan.org/release/Rex",
-      "username" : "https://github.com/polera",
-      "author" : "https://metacpan.org/author/JFRIED"
+      "repo" : "https://github.com/RexOps/Rex"
    },
    {
-      "username" : "https://github.com/arguello",
+      "assigned" : "https://github.com/arguello",
+      "author" : "https://metacpan.org/author/SROMANOV",
       "module" : "https://metacpan.org/release/Crypt-OpenPGP",
-      "repo" : "https://github.com/btrott/Crypt-OpenPGP",
-      "author" : "https://metacpan.org/author/SROMANOV"
+      "repo" : "https://github.com/btrott/Crypt-OpenPGP"
    },
    {
+      "assigned" : "https://github.com/rdmrl",
       "author" : "https://metacpan.org/author/RSAVAGE",
-      "username" : "https://github.com/rdmrl",
       "module" : "https://metacpan.org/release/Tree-Simple",
       "repo" : "https://github.com/stevan/tree-simple"
    },
    {
+      "assigned" : "https://github.com/jjeffus",
       "author" : "https://metacpan.org/author/PERLANCAR",
-      "repo" : "https://github.com/perlancar/perl-Perinci-Object",
       "module" : "https://metacpan.org/release/Perinci-Object",
-      "username" : "https://github.com/jjeffus"
+      "repo" : "https://github.com/perlancar/perl-Perinci-Object"
    },
    {
+      "assigned" : "https://github.com/virtualsue",
+      "author" : "https://metacpan.org/author/SANKO",
       "module" : "https://metacpan.org/release/Readonly",
-      "repo" : "https://github.com/sanko/readonly",
-      "username" : "https://github.com/virtualsue",
-      "author" : "https://metacpan.org/author/SANKO"
+      "repo" : "https://github.com/sanko/readonly"
    },
    {
+      "assigned" : "https://github.com/turnstep",
       "author" : "https://metacpan.org/author/MJEVANS",
-      "username" : "https://github.com/turnstep",
-      "repo" : "https://github.com/perl5-dbi/DBD-ODBC",
-      "module" : "https://metacpan.org/release/DBD-ODBC"
+      "module" : "https://metacpan.org/release/DBD-ODBC",
+      "repo" : "https://github.com/perl5-dbi/DBD-ODBC"
    },
    {
+      "assigned" : "https://github.com/d5ve",
       "author" : "https://metacpan.org/author/UNERA",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-MailException",
-      "repo" : "https://github.com/dr-co/libmojolicious-plugin-mail_exception",
-      "username" : "https://github.com/d5ve"
+      "repo" : "https://github.com/dr-co/libmojolicious-plugin-mail_exception"
    },
    {
+      "assigned" : "https://github.com/bldewolf",
       "author" : "https://metacpan.org/author/SYP",
-      "username" : "https://github.com/bldewolf",
       "module" : "https://metacpan.org/release/Net-Curl",
       "repo" : "https://github.com/sparky/perl-Net-Curl"
    },
    {
-      "username" : "https://github.com/briang",
+      "assigned" : "https://github.com/briang",
+      "author" : "https://metacpan.org/author/EALLENIII",
       "module" : "https://metacpan.org/release/MooseX-Role-AttributeOverride",
-      "repo" : "https://github.com/riemann42/MooseX-Role-AttributeOverride",
-      "author" : "https://metacpan.org/author/EALLENIII"
+      "repo" : "https://github.com/riemann42/MooseX-Role-AttributeOverride"
    },
    {
+      "assigned" : "https://github.com/pwr22",
       "author" : "https://metacpan.org/author/MMIMS",
-      "username" : "https://github.com/pwr22",
-      "repo" : "https://github.com/semifor/twirc",
-      "module" : "https://metacpan.org/release/POE-Component-Server-Twirc"
+      "module" : "https://metacpan.org/release/POE-Component-Server-Twirc",
+      "repo" : "https://github.com/semifor/twirc"
    },
    {
+      "assigned" : "https://github.com/dtaylor",
       "author" : "https://metacpan.org/author/SILASMONK",
-      "username" : "https://github.com/dtaylor",
-      "repo" : "https://github.com/periapt/Test-CGI-Multipart/tree",
-      "module" : "https://metacpan.org/release/Test-CGI-Multipart"
+      "module" : "https://metacpan.org/release/Test-CGI-Multipart",
+      "repo" : "https://github.com/periapt/Test-CGI-Multipart/tree"
    },
    {
-      "username" : "https://github.com/fredericorecsky",
-      "repo" : "https://github.com/naoya/plack-middleware-file-less",
+      "assigned" : "https://github.com/fredericorecsky",
+      "author" : "https://metacpan.org/author/NAOYA",
       "module" : "https://metacpan.org/release/Plack-Middleware-File-Less",
-      "author" : "https://metacpan.org/author/NAOYA"
+      "repo" : "https://github.com/naoya/plack-middleware-file-less"
    },
    {
+      "assigned" : "https://github.com/swuecho",
+      "author" : "https://metacpan.org/author/SYOHEX",
       "module" : "https://metacpan.org/release/Text-Xslate",
-      "repo" : "https://github.com/xslate/p5-Text-Xslate",
-      "username" : "https://github.com/swuecho",
-      "author" : "https://metacpan.org/author/SYOHEX"
+      "repo" : "https://github.com/xslate/p5-Text-Xslate"
    },
    {
-      "repo" : "https://github.com/dap/XML-Stream",
+      "assigned" : "https://github.com/lucaskanashiro",
+      "author" : "https://metacpan.org/author/DAPATRICK",
       "module" : "https://metacpan.org/release/XML-Stream",
-      "username" : "https://github.com/lucaskanashiro",
-      "author" : "https://metacpan.org/author/DAPATRICK"
+      "repo" : "https://github.com/dap/XML-Stream"
    },
    {
+      "assigned" : "https://github.com/suratbhati",
       "author" : "https://metacpan.org/author/RGE",
-      "username" : "https://github.com/suratbhati",
-      "repo" : "https://github.com/robinedwards/XML-Feed-Aggregator",
-      "module" : "https://metacpan.org/release/XML-Feed-Aggregator"
+      "module" : "https://metacpan.org/release/XML-Feed-Aggregator",
+      "repo" : "https://github.com/robinedwards/XML-Feed-Aggregator"
    },
    {
-      "repo" : "https://github.com/robrwo/Media-Types-Simple",
+      "assigned" : "https://github.com/veryrusty",
+      "author" : "https://metacpan.org/author/RRWO",
       "module" : "https://metacpan.org/release/Media-Type-Simple",
-      "username" : "https://github.com/veryrusty",
-      "author" : "https://metacpan.org/author/RRWO"
+      "repo" : "https://github.com/robrwo/Media-Types-Simple"
    },
    {
+      "assigned" : "https://github.com/fantapop",
       "author" : "https://metacpan.org/author/YAMAMOTO",
       "module" : "https://metacpan.org/release/Plack-App-GitSmartHttp",
-      "repo" : "https://github.com/dragon3/Plack-App-GitSmartHttp",
-      "username" : "https://github.com/fantapop"
+      "repo" : "https://github.com/dragon3/Plack-App-GitSmartHttp"
    },
    {
+      "assigned" : "https://github.com/kdk",
       "author" : "https://metacpan.org/author/GRIAN",
-      "repo" : "https://github.com/Grian/Storable-AMF",
       "module" : "https://metacpan.org/release/Storable-AMF",
-      "username" : "https://github.com/kdk"
+      "repo" : "https://github.com/Grian/Storable-AMF"
    },
    {
+      "assigned" : "https://github.com/kappa",
       "author" : "https://metacpan.org/author/DAMS",
-      "repo" : "https://github.com/PerlRedis/perl-redis",
       "module" : "https://metacpan.org/release/Redis",
-      "username" : "https://github.com/kappa"
+      "repo" : "https://github.com/PerlRedis/perl-redis"
    },
    {
+      "assigned" : "https://github.com/jluis",
       "author" : "https://metacpan.org/author/JLUIS",
-      "username" : "https://github.com/jluis",
-      "repo" : "https://github.com/jluis/metacpan-api-tiny",
-      "module" : "https://metacpan.org/release/MetaCPAN-API-Tiny"
+      "module" : "https://metacpan.org/release/MetaCPAN-API-Tiny",
+      "repo" : "https://github.com/jluis/metacpan-api-tiny"
    },
    {
+      "assigned" : "https://github.com/openstrike",
       "author" : "https://metacpan.org/author/PSHANGOV",
-      "repo" : "https://github.com/pshangov/dist-zilla-app-command-podpreview",
       "module" : "https://metacpan.org/release/Dist-Zilla-App-Command-podpreview",
-      "username" : "https://github.com/openstrike"
+      "repo" : "https://github.com/pshangov/dist-zilla-app-command-podpreview"
    },
    {
+      "assigned" : "https://github.com/smpeters",
       "author" : "https://metacpan.org/author/GEMPESAW",
       "module" : "https://metacpan.org/release/Selenium-Remote-Driver",
-      "repo" : "https://github.com/gempesaw/Selenium-Remote-Driver",
-      "username" : "https://github.com/smpeters"
+      "repo" : "https://github.com/gempesaw/Selenium-Remote-Driver"
    },
    {
+      "assigned" : "https://github.com/priyankakumari066",
       "author" : "https://metacpan.org/author/ANDK",
-      "repo" : "https://github.com/andk/devel-symdump",
       "module" : "https://metacpan.org/release/Devel-Symdump",
-      "username" : "https://github.com/priyankakumari066"
+      "repo" : "https://github.com/andk/devel-symdump"
    },
    {
+      "assigned" : "https://github.com/relequestual",
       "author" : "https://metacpan.org/author/GUGOD",
       "module" : "https://metacpan.org/release/App-perlbrew",
-      "repo" : "https://github.com/gugod/App-perlbrew",
-      "username" : "https://github.com/relequestual"
+      "repo" : "https://github.com/gugod/App-perlbrew"
    },
    {
+      "assigned" : "https://github.com/fluks",
       "author" : "https://metacpan.org/author/DANBOO",
-      "repo" : "https://github.com/danboo/perl-test-command",
       "module" : "https://metacpan.org/release/Test-Command",
-      "username" : "https://github.com/fluks"
+      "repo" : "https://github.com/danboo/perl-test-command"
    },
    {
+      "assigned" : "https://github.com/localfilmmaker",
       "author" : "https://metacpan.org/author/MRUIZ",
-      "username" : "https://github.com/localfilmmaker",
-      "repo" : "https://github.com/miquelruiz/DBIx-Class-InflateColumn-Serializer",
-      "module" : "https://metacpan.org/release/DBIx-Class-InflateColumn-Serializer"
+      "module" : "https://metacpan.org/release/DBIx-Class-InflateColumn-Serializer",
+      "repo" : "https://github.com/miquelruiz/DBIx-Class-InflateColumn-Serializer"
    },
    {
-      "username" : "https://github.com/msingle",
-      "repo" : "https://github.com/markpitchless/moosex-getopt-usage",
+      "assigned" : "https://github.com/msingle",
+      "author" : "https://metacpan.org/author/PITCHLESS",
       "module" : "https://metacpan.org/release/MooseX-Getopt-Usage",
-      "author" : "https://metacpan.org/author/PITCHLESS"
+      "repo" : "https://github.com/markpitchless/moosex-getopt-usage"
    },
    {
+      "assigned" : "https://github.com/agwind",
+      "author" : "https://metacpan.org/author/XAICRON",
       "module" : "https://metacpan.org/release/Win32-Unicode",
-      "repo" : "https://github.com/xaicron/p5-win32-unicode",
-      "username" : "https://github.com/agwind",
-      "author" : "https://metacpan.org/author/XAICRON"
+      "repo" : "https://github.com/xaicron/p5-win32-unicode"
    },
    {
-      "username" : "https://github.com/SparkeyG",
+      "assigned" : "https://github.com/SparkeyG",
+      "author" : "https://metacpan.org/author/FERREIRA",
       "module" : "https://metacpan.org/release/Carp-Always",
-      "repo" : "https://github.com/aferreira/cpan-Carp-Always",
-      "author" : "https://metacpan.org/author/FERREIRA"
+      "repo" : "https://github.com/aferreira/cpan-Carp-Always"
    },
    {
+      "assigned" : "https://github.com/bentglasstube",
       "author" : "https://metacpan.org/author/THALJEF",
-      "username" : "https://github.com/bentglasstube",
       "module" : "https://metacpan.org/release/Perl-Critic",
       "repo" : "https://github.com/Perl-Critic/Perl-Critic"
    },
    {
-      "username" : "https://github.com/bennythejudge",
-      "repo" : "https://github.com/ryochin/p5-net-ftpserver",
+      "assigned" : "https://github.com/bennythejudge",
+      "author" : "https://metacpan.org/author/RYOCHIN",
       "module" : "https://metacpan.org/release/Net-FTPServer",
-      "author" : "https://metacpan.org/author/RYOCHIN"
+      "repo" : "https://github.com/ryochin/p5-net-ftpserver"
    },
    {
+      "assigned" : "https://github.com/rfarr",
       "author" : "https://metacpan.org/author/MASAKI",
-      "repo" : "https://github.com/masaki/Test-Fake-HTTPD",
       "module" : "https://metacpan.org/release/Test-Fake-HTTPD",
-      "username" : "https://github.com/rfarr"
+      "repo" : "https://github.com/masaki/Test-Fake-HTTPD"
    },
    {
+      "assigned" : "https://github.com/ivanwills",
+      "author" : "https://metacpan.org/author/SPAZM",
       "module" : "https://metacpan.org/release/Dancer-Plugin-Authen-Simple",
-      "repo" : "https://github.com/spazm/p5-dancer-plugin-authen-simple",
-      "username" : "https://github.com/ivanwills",
-      "author" : "https://metacpan.org/author/SPAZM"
+      "repo" : "https://github.com/spazm/p5-dancer-plugin-authen-simple"
    },
    {
-      "repo" : "https://github.com/rodrigolive/mongoose",
+      "assigned" : "https://github.com/vocatan",
+      "author" : "https://metacpan.org/author/RODRIGO",
       "module" : "https://metacpan.org/release/Mongoose",
-      "username" : "https://github.com/vocatan",
-      "author" : "https://metacpan.org/author/RODRIGO"
+      "repo" : "https://github.com/rodrigolive/mongoose"
    },
    {
+      "assigned" : "https://github.com/mnlagrasta",
       "author" : "https://metacpan.org/author/IAMCAL",
-      "username" : "https://github.com/mnlagrasta",
-      "repo" : "https://github.com/iamcal/perl-Flickr-API",
-      "module" : "https://metacpan.org/release/Flickr-API"
+      "module" : "https://metacpan.org/release/Flickr-API",
+      "repo" : "https://github.com/iamcal/perl-Flickr-API"
    },
    {
+      "assigned" : "https://github.com/el-lumbergato",
+      "author" : "https://metacpan.org/author/CORION",
       "module" : "https://metacpan.org/release/Test-Without-Module",
-      "repo" : "https://github.com/Corion/test-without-module",
-      "username" : "https://github.com/el-lumbergato",
-      "author" : "https://metacpan.org/author/CORION"
+      "repo" : "https://github.com/Corion/test-without-module"
    },
    {
+      "assigned" : "https://github.com/githuboxsen",
+      "author" : "https://metacpan.org/author/KAORU",
       "module" : "https://metacpan.org/release/HTTP-Async",
-      "repo" : "https://github.com/evdb/HTTP-Async",
-      "username" : "https://github.com/githuboxsen",
-      "author" : "https://metacpan.org/author/KAORU"
+      "repo" : "https://github.com/evdb/HTTP-Async"
    },
    {
+      "assigned" : "https://github.com/vytas-dauksa",
+      "author" : "https://metacpan.org/author/TEX",
       "module" : "https://metacpan.org/release/File-Blarf",
-      "repo" : "https://github.com/gittex/File-Blarf",
-      "username" : "https://github.com/vytas-dauksa",
-      "author" : "https://metacpan.org/author/TEX"
+      "repo" : "https://github.com/gittex/File-Blarf"
    },
    {
+      "assigned" : "https://github.com/ambs",
       "author" : "https://metacpan.org/author/SIXAPART",
-      "username" : "https://github.com/ambs",
-      "repo" : "https://github.com/sixapart/data-objectdriver",
-      "module" : "https://metacpan.org/release/Data-ObjectDriver"
+      "module" : "https://metacpan.org/release/Data-ObjectDriver",
+      "repo" : "https://github.com/sixapart/data-objectdriver"
    },
    {
+      "assigned" : "https://github.com/yuripats",
       "author" : "https://metacpan.org/author/WOLLMERS",
-      "username" : "https://github.com/yuripats",
       "module" : "https://metacpan.org/release/Text-Undiacritic",
       "repo" : "https://github.com/wollmers/Text-Undiacritic"
    },
    {
-      "username" : "https://github.com/tolid",
+      "assigned" : "https://github.com/tolid",
+      "author" : "https://metacpan.org/author/KAZUHO",
       "module" : "https://metacpan.org/release/Parallel-Scoreboard",
-      "repo" : "https://github.com/kazuho/p5-Parallel-Scoreboard",
-      "author" : "https://metacpan.org/author/KAZUHO"
+      "repo" : "https://github.com/kazuho/p5-Parallel-Scoreboard"
    },
    {
+      "assigned" : "https://github.com/alpha6",
+      "author" : "https://metacpan.org/author/REHSACK",
       "module" : "https://metacpan.org/release/AnyData",
-      "repo" : "https://github.com/perl5-dbi/AnyData",
-      "username" : "https://github.com/alpha6",
-      "author" : "https://metacpan.org/author/REHSACK"
+      "repo" : "https://github.com/perl5-dbi/AnyData"
    },
    {
-      "username" : "https://github.com/autumnlansing",
-      "repo" : "https://github.com/schwern/URI-Find",
+      "assigned" : "https://github.com/autumnlansing",
+      "author" : "https://metacpan.org/author/MSCHWERN",
       "module" : "https://metacpan.org/release/URI-Find",
-      "author" : "https://metacpan.org/author/MSCHWERN"
+      "repo" : "https://github.com/schwern/URI-Find"
    },
    {
+      "assigned" : "https://github.com/choroba",
       "author" : "https://metacpan.org/author/ASH",
-      "repo" : "https://github.com/franckcuny/net-http-spore",
       "module" : "https://metacpan.org/release/Net-HTTP-Spore",
-      "username" : "https://github.com/choroba"
+      "repo" : "https://github.com/franckcuny/net-http-spore"
    },
    {
+      "assigned" : "https://github.com/tadegenban",
       "author" : "https://metacpan.org/author/SZABGAB",
-      "repo" : "https://github.com/szabgab/Term-ProgressBar",
       "module" : "https://metacpan.org/release/Term-ProgressBar",
-      "username" : "https://github.com/tadegenban"
+      "repo" : "https://github.com/szabgab/Term-ProgressBar"
    },
    {
+      "assigned" : "https://github.com/monsieurp",
       "author" : "https://metacpan.org/author/IRONCAMEL",
-      "username" : "https://github.com/monsieurp",
-      "repo" : "https://github.com/ironcamel/Dancer-Plugin-DBIC",
-      "module" : "https://metacpan.org/release/Dancer-Plugin-DBIC"
+      "module" : "https://metacpan.org/release/Dancer-Plugin-DBIC",
+      "repo" : "https://github.com/ironcamel/Dancer-Plugin-DBIC"
    },
    {
+      "assigned" : "https://github.com/nmishin",
       "author" : "https://metacpan.org/author/CHIPS",
       "module" : "https://metacpan.org/release/Tatsumaki",
-      "repo" : "https://github.com/miyagawa/Tatsumaki",
-      "username" : "https://github.com/nmishin"
+      "repo" : "https://github.com/miyagawa/Tatsumaki"
    },
    {
-      "username" : "https://github.com/etheleon",
-      "repo" : "https://github.com/nipotan/p5-Number-Phone-JP",
+      "assigned" : "https://github.com/etheleon",
+      "author" : "https://metacpan.org/author/TANIGUCHI",
       "module" : "https://metacpan.org/release/Number-Phone-JP",
-      "author" : "https://metacpan.org/author/TANIGUCHI"
+      "repo" : "https://github.com/nipotan/p5-Number-Phone-JP"
    },
    {
+      "assigned" : "https://github.com/karanjthakkar",
       "author" : "https://metacpan.org/author/DAVECROSS",
-      "repo" : "https://github.com/davorg/perlanet",
       "module" : "https://metacpan.org/release/Perlanet",
-      "username" : "https://github.com/karanjthakkar"
+      "repo" : "https://github.com/davorg/perlanet"
    },
    {
-      "repo" : "https://github.com/stevan/catalyst-view-excel-template-plus",
+      "assigned" : "https://github.com/kaoru",
+      "author" : "https://metacpan.org/author/STEVAN",
       "module" : "https://metacpan.org/release/Catalyst-View-Excel-Template-Plus",
-      "username" : "https://github.com/kaoru",
-      "author" : "https://metacpan.org/author/STEVAN"
+      "repo" : "https://github.com/stevan/catalyst-view-excel-template-plus"
    },
    {
+      "assigned" : "https://github.com/adamherzog",
       "author" : "https://metacpan.org/author/IVANWILLS",
-      "username" : "https://github.com/adamherzog",
       "module" : "https://metacpan.org/release/MooseX-Exception-Base",
       "repo" : "https://github.com/ivanwills/MooseX-Exception-Base"
    },
    {
+      "assigned" : "https://github.com/erikhenrique",
       "author" : "https://metacpan.org/author/RKINYON",
-      "repo" : "https://github.com/robkinyon/dbm-deep",
       "module" : "https://metacpan.org/release/DBM-Deep",
-      "username" : "https://github.com/erikhenrique"
+      "repo" : "https://github.com/robkinyon/dbm-deep"
    },
    {
+      "assigned" : "https://github.com/ypandit",
+      "author" : "https://metacpan.org/author/FREW",
       "module" : "https://metacpan.org/release/Config-ZOMG",
-      "repo" : "https://github.com/frioux/Config-ZOMG",
-      "username" : "https://github.com/ypandit",
-      "author" : "https://metacpan.org/author/FREW"
+      "repo" : "https://github.com/frioux/Config-ZOMG"
    },
    {
-      "repo" : "https://github.com/dhoss/catalyst-view-email",
+      "assigned" : "https://github.com/sheeju",
+      "author" : "https://metacpan.org/author/DHOSS",
       "module" : "https://metacpan.org/release/Catalyst-View-Email",
-      "username" : "https://github.com/sheeju",
-      "author" : "https://metacpan.org/author/DHOSS"
+      "repo" : "https://github.com/dhoss/catalyst-view-email"
    },
    {
-      "repo" : "https://git@github.com:alexrj/Net-LDAP-Server",
+      "assigned" : "https://github.com/edwart",
+      "author" : "https://metacpan.org/author/AAR",
       "module" : "https://metacpan.org/release/Net-LDAP-Server",
-      "username" : "https://github.com/edwart",
-      "author" : "https://metacpan.org/author/AAR"
+      "repo" : "https://git@github.com:alexrj/Net-LDAP-Server"
    },
    {
-      "username" : "https://github.com/rjnewsham",
+      "assigned" : "https://github.com/rjnewsham",
+      "author" : "https://metacpan.org/author/RHESA",
       "module" : "https://metacpan.org/release/Method-Signatures-Simple",
-      "repo" : "https://github.com/rhesa/method-signatures-simple",
-      "author" : "https://metacpan.org/author/RHESA"
+      "repo" : "https://github.com/rhesa/method-signatures-simple"
    },
    {
+      "assigned" : "https://github.com/nhilterbrand",
       "author" : "https://metacpan.org/author/MNUNBERG",
-      "username" : "https://github.com/nhilterbrand",
       "module" : "https://metacpan.org/release/Couchbase-Client",
       "repo" : "https://github.com/mnunberg/perl-Couchbase-Client"
    },
    {
+      "assigned" : "https://github.com/haarg",
       "author" : "https://metacpan.org/author/PHILIP",
       "module" : "https://metacpan.org/release/Test-Spec",
-      "repo" : "https://github.com/kingpong/perl-Test-Spec",
-      "username" : "https://github.com/haarg"
+      "repo" : "https://github.com/kingpong/perl-Test-Spec"
    },
    {
+      "assigned" : "https://github.com/GovardhanYadav",
       "author" : "https://metacpan.org/author/SEMUELF",
-      "username" : "https://github.com/GovardhanYadav",
-      "repo" : "https://github.com/semuel/Dist-Surveyor",
-      "module" : "https://metacpan.org/release/Dist-Surveyor"
+      "module" : "https://metacpan.org/release/Dist-Surveyor",
+      "repo" : "https://github.com/semuel/Dist-Surveyor"
    },
    {
-      "username" : "https://github.com/ncstang",
-      "repo" : "https://github.com/mbeijen/File-MimeInfo",
+      "assigned" : "https://github.com/ncstang",
+      "author" : "https://metacpan.org/author/MICHIELB",
       "module" : "https://metacpan.org/release/File-MimeInfo",
-      "author" : "https://metacpan.org/author/MICHIELB"
+      "repo" : "https://github.com/mbeijen/File-MimeInfo"
    },
    {
+      "assigned" : "https://github.com/tbushell8512",
       "author" : "https://metacpan.org/author/BOWMANBS",
-      "repo" : "https://github.com/bowman/Plack-Middleware-ReverseProxyPath",
       "module" : "https://metacpan.org/release/Plack-Middleware-ReverseProxyPath",
-      "username" : "https://github.com/tbushell8512"
+      "repo" : "https://github.com/bowman/Plack-Middleware-ReverseProxyPath"
    },
    {
-      "username" : "https://github.com/stefany93",
-      "repo" : "https://github.com/hayajo/Mojolicious-Plugin-Webtail",
+      "assigned" : "https://github.com/stefany93",
+      "author" : "https://metacpan.org/author/HAYAJO",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-Webtail",
-      "author" : "https://metacpan.org/author/HAYAJO"
+      "repo" : "https://github.com/hayajo/Mojolicious-Plugin-Webtail"
    },
    {
+      "assigned" : "https://github.com/sgivan",
       "author" : "https://metacpan.org/author/JMCNAMARA",
-      "repo" : "https://github.com/jmcnamara/spreadsheet-writeexcel",
       "module" : "https://metacpan.org/release/Spreadsheet-WriteExcel",
-      "username" : "https://github.com/sgivan"
+      "repo" : "https://github.com/jmcnamara/spreadsheet-writeexcel"
    },
    {
+      "assigned" : "https://github.com/dolmen",
       "author" : "https://metacpan.org/author/GVL",
       "module" : "https://metacpan.org/release/POE-Component-EasyDBI",
-      "repo" : "https://github.com/gps4net/POE-Component-EasyDBI",
-      "username" : "https://github.com/dolmen"
+      "repo" : "https://github.com/gps4net/POE-Component-EasyDBI"
    },
    {
+      "assigned" : "https://github.com/LeHack",
       "author" : "https://metacpan.org/author/EGILES",
-      "username" : "https://github.com/LeHack",
-      "repo" : "https://github.com/egiles/test-compile",
-      "module" : "https://metacpan.org/release/Test-Compile"
+      "module" : "https://metacpan.org/release/Test-Compile",
+      "repo" : "https://github.com/egiles/test-compile"
    },
    {
+      "assigned" : "https://github.com/walas83",
       "author" : "https://metacpan.org/author/MLAWREN",
       "module" : "https://metacpan.org/release/Sys-Cmd",
-      "repo" : "https://github.com/mlawren/p5-Sys-Cmd",
-      "username" : "https://github.com/walas83"
+      "repo" : "https://github.com/mlawren/p5-Sys-Cmd"
    },
    {
+      "assigned" : "https://github.com/perlpilot",
+      "author" : "https://metacpan.org/author/TJENNESS",
       "module" : "https://metacpan.org/release/File-SearchPath",
-      "repo" : "https://github.com/timj/perl-File-SearchPath",
-      "username" : "https://github.com/perlpilot",
-      "author" : "https://metacpan.org/author/TJENNESS"
+      "repo" : "https://github.com/timj/perl-File-SearchPath"
    },
    {
+      "assigned" : "https://github.com/LesleyB",
       "author" : "https://metacpan.org/author/XIONG",
-      "username" : "https://github.com/LesleyB",
-      "repo" : "https://github.com/Xiong/devel-comments",
-      "module" : "https://metacpan.org/release/Devel-Comments"
+      "module" : "https://metacpan.org/release/Devel-Comments",
+      "repo" : "https://github.com/Xiong/devel-comments"
    },
    {
-      "username" : "https://github.com/mantovani",
+      "assigned" : "https://github.com/mantovani",
+      "author" : "https://metacpan.org/author/JAWNSY",
       "module" : "https://metacpan.org/release/Math-Random-ISAAC",
-      "repo" : "https://github.com/jawnsy/Math-Random-ISAAC",
-      "author" : "https://metacpan.org/author/JAWNSY"
+      "repo" : "https://github.com/jawnsy/Math-Random-ISAAC"
    },
    {
+      "assigned" : "https://github.com/npongratz",
       "author" : "https://metacpan.org/author/MSTROUT",
-      "username" : "https://github.com/npongratz",
-      "repo" : "https://github.com/nothingmuch/poe-component-supervisor",
-      "module" : "https://metacpan.org/release/POE-Component-Supervisor"
+      "module" : "https://metacpan.org/release/POE-Component-Supervisor",
+      "repo" : "https://github.com/nothingmuch/poe-component-supervisor"
    },
    {
+      "assigned" : "https://github.com/bieron",
       "author" : "https://metacpan.org/author/SALVA",
       "module" : "https://metacpan.org/release/Net-OpenSSH",
-      "repo" : "https://github.com/salva/p5-Net-OpenSSH",
-      "username" : "https://github.com/bieron"
+      "repo" : "https://github.com/salva/p5-Net-OpenSSH"
    },
    {
+      "assigned" : "https://github.com/renatocron",
       "author" : "https://metacpan.org/author/TOMMY",
-      "username" : "https://github.com/renatocron",
       "module" : "https://metacpan.org/release/File-Util",
       "repo" : "https://github.com/tommybutler/file-util"
    },
    {
+      "assigned" : "https://github.com/manchicken",
       "author" : "https://metacpan.org/author/HOLLY",
-      "username" : "https://github.com/manchicken",
       "module" : "https://metacpan.org/release/App-CLI-Extension",
       "repo" : "https://github.com/holly/perl-App-CLI-Extension"
    },
    {
-      "repo" : "https://github.com/chrisa/perl-Crypt-OpenSSL-VerifyX509",
+      "assigned" : "https://github.com/dionys",
+      "author" : "https://metacpan.org/author/CHRISA",
       "module" : "https://metacpan.org/release/Crypt-OpenSSL-VerifyX509",
-      "username" : "https://github.com/dionys",
-      "author" : "https://metacpan.org/author/CHRISA"
+      "repo" : "https://github.com/chrisa/perl-Crypt-OpenSSL-VerifyX509"
    },
    {
+      "assigned" : "https://github.com/DavidVWood44",
       "author" : "https://metacpan.org/author/MAVERICK",
-      "repo" : "https://github.com/maverick/couchdb-client",
       "module" : "https://metacpan.org/release/CouchDB-Client",
-      "username" : "https://github.com/DavidVWood44"
+      "repo" : "https://github.com/maverick/couchdb-client"
    },
    {
-      "repo" : "https://github.com/lima1/p5-latex-table",
+      "assigned" : "https://github.com/rafaelol",
+      "author" : "https://metacpan.org/author/LIMAONE",
       "module" : "https://metacpan.org/release/LaTeX-Table",
-      "username" : "https://github.com/rafaelol",
-      "author" : "https://metacpan.org/author/LIMAONE"
+      "repo" : "https://github.com/lima1/p5-latex-table"
    },
    {
-      "username" : "https://github.com/nomadicj",
+      "assigned" : "https://github.com/nomadicj",
+      "author" : "https://metacpan.org/author/SPARKY",
       "module" : "https://metacpan.org/release/Test-HTTP-Server",
-      "repo" : "https://github.com/sparky/perl-Test-HTTP-Server",
-      "author" : "https://metacpan.org/author/SPARKY"
+      "repo" : "https://github.com/sparky/perl-Test-HTTP-Server"
    },
    {
+      "assigned" : "https://github.com/miquelruiz",
       "author" : "https://metacpan.org/author/JALDHAR",
-      "repo" : "https://github.com/jaldhar/Module-Starter-Plugin-CGIApp",
       "module" : "https://metacpan.org/release/Module-Starter-Plugin-CGIApp",
-      "username" : "https://github.com/miquelruiz"
+      "repo" : "https://github.com/jaldhar/Module-Starter-Plugin-CGIApp"
    },
    {
-      "username" : "https://github.com/jasonrsmith",
-      "repo" : "https://github.com/AnyEvent-XMPP/AnyEvent-XMPP",
+      "assigned" : "https://github.com/jasonrsmith",
+      "author" : "https://metacpan.org/author/MSTPLBG",
       "module" : "https://metacpan.org/release/AnyEvent-XMPP",
-      "author" : "https://metacpan.org/author/MSTPLBG"
+      "repo" : "https://github.com/AnyEvent-XMPP/AnyEvent-XMPP"
    },
    {
-      "repo" : "https://github.com/tomi-ru/Template-Semantic",
+      "assigned" : "https://github.com/nhainer",
+      "author" : "https://metacpan.org/author/TOMITA",
       "module" : "https://metacpan.org/release/Template-Semantic",
-      "username" : "https://github.com/nhainer",
-      "author" : "https://metacpan.org/author/TOMITA"
+      "repo" : "https://github.com/tomi-ru/Template-Semantic"
    },
    {
+      "assigned" : "https://github.com/lharey",
       "author" : "https://metacpan.org/author/APOCAL",
-      "username" : "https://github.com/lharey",
       "module" : "https://metacpan.org/release/Test-Pod-Spelling-CommonMistakes",
       "repo" : "https://github.com/apocalypse/perl-test-pod-spelling-commonmistakes"
    },
    {
-      "username" : "https://github.com/itcharlie",
-      "repo" : "https://github.com/arcanez/poe-component-dirwatch",
+      "assigned" : "https://github.com/itcharlie",
+      "author" : "https://metacpan.org/author/ARCANEZ",
       "module" : "https://metacpan.org/release/POE-Component-DirWatch",
-      "author" : "https://metacpan.org/author/ARCANEZ"
+      "repo" : "https://github.com/arcanez/poe-component-dirwatch"
    },
    {
-      "repo" : "https://github.com/kmx/alien-iup",
+      "assigned" : "https://github.com/jeffblack360",
+      "author" : "https://metacpan.org/author/KMX",
       "module" : "https://metacpan.org/release/Alien-IUP",
-      "username" : "https://github.com/jeffblack360",
-      "author" : "https://metacpan.org/author/KMX"
+      "repo" : "https://github.com/kmx/alien-iup"
    },
    {
+      "assigned" : "https://github.com/rba",
       "author" : "https://metacpan.org/author/NPLATONOV",
-      "repo" : "https://github.com/SamuraiJack/Dist-Zilla-Plugin-JSAN",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-JSAN",
-      "username" : "https://github.com/rba"
+      "repo" : "https://github.com/SamuraiJack/Dist-Zilla-Plugin-JSAN"
    },
    {
+      "assigned" : "https://github.com/royalkiran007",
       "author" : "https://metacpan.org/author/ABH",
-      "repo" : "https://github.com/gisle/mozilla-ca",
       "module" : "https://metacpan.org/release/Mozilla-CA",
-      "username" : "https://github.com/royalkiran007"
+      "repo" : "https://github.com/gisle/mozilla-ca"
    },
    {
-      "username" : "https://github.com/sdeseille",
+      "assigned" : "https://github.com/sdeseille",
+      "author" : "https://metacpan.org/author/LETO",
       "module" : "https://metacpan.org/release/Math-MatrixReal",
-      "repo" : "https://github.com/leto/math--matrixreal/tree/master",
-      "author" : "https://metacpan.org/author/LETO"
+      "repo" : "https://github.com/leto/math--matrixreal/tree/master"
    },
    {
+      "assigned" : "https://github.com/Shreck",
       "author" : "https://metacpan.org/author/YUSUKEBE",
-      "username" : "https://github.com/Shreck",
-      "repo" : "https://github.com/yusukebe/WebService-Simple",
-      "module" : "https://metacpan.org/release/WebService-Simple"
+      "module" : "https://metacpan.org/release/WebService-Simple",
+      "repo" : "https://github.com/yusukebe/WebService-Simple"
    },
    {
+      "assigned" : "https://github.com/skaurus",
       "author" : "https://metacpan.org/author/HEYTRAV",
       "module" : "https://metacpan.org/release/Hessian-Translator",
-      "repo" : "https://github.com/heytrav/hessian-client",
-      "username" : "https://github.com/skaurus"
+      "repo" : "https://github.com/heytrav/hessian-client"
    },
    {
-      "username" : "https://github.com/kohts",
-      "repo" : "https://github.com/salortiz/LMDB_File",
+      "assigned" : "https://github.com/kohts",
+      "author" : "https://metacpan.org/author/SORTIZ",
       "module" : "https://metacpan.org/release/LMDB_File",
-      "author" : "https://metacpan.org/author/SORTIZ"
+      "repo" : "https://github.com/salortiz/LMDB_File"
    },
    {
-      "repo" : "https://github.com/jorol/Catmandu-MAB2",
+      "assigned" : "https://github.com/panshin",
+      "author" : "https://metacpan.org/author/JOROL",
       "module" : "https://metacpan.org/release/Catmandu-MAB2",
-      "username" : "https://github.com/panshin",
-      "author" : "https://metacpan.org/author/JOROL"
+      "repo" : "https://github.com/jorol/Catmandu-MAB2"
    },
    {
+      "assigned" : "https://github.com/garcer",
       "author" : "https://metacpan.org/author/TOSHIOITO",
-      "repo" : "https://github.com/debug-ito/AnyEvent-WebSocket-Server",
       "module" : "https://metacpan.org/release/AnyEvent-WebSocket-Server",
-      "username" : "https://github.com/garcer"
+      "repo" : "https://github.com/debug-ito/AnyEvent-WebSocket-Server"
    },
    {
-      "username" : "https://github.com/ferki",
+      "assigned" : "https://github.com/ferki",
+      "author" : "https://metacpan.org/author/AVENJ",
       "module" : "https://metacpan.org/release/MooX-Role-POE-Emitter",
-      "repo" : "https://github.com/avenj/moox-role-poe-emitter",
-      "author" : "https://metacpan.org/author/AVENJ"
+      "repo" : "https://github.com/avenj/moox-role-poe-emitter"
    },
    {
+      "assigned" : "https://github.com/jeturcotte",
+      "author" : "https://metacpan.org/author/KABLAMO",
       "module" : "https://metacpan.org/release/MooseX-CachingProxy",
-      "repo" : "https://github.com/kablamo/MooseX-CachingProxy",
-      "username" : "https://github.com/jeturcotte",
-      "author" : "https://metacpan.org/author/KABLAMO"
+      "repo" : "https://github.com/kablamo/MooseX-CachingProxy"
    },
    {
+      "assigned" : "https://github.com/pisush",
+      "author" : "https://metacpan.org/author/PREACTION",
       "module" : "https://metacpan.org/release/Beam-Wire",
-      "repo" : "https://github.com/preaction/Beam-Wire",
-      "username" : "https://github.com/pisush",
-      "author" : "https://metacpan.org/author/PREACTION"
+      "repo" : "https://github.com/preaction/Beam-Wire"
    },
    {
+      "assigned" : "https://github.com/icydee",
       "author" : "https://metacpan.org/author/ARISTOTLE",
-      "repo" : "https://github.com/ap/Plack-Middleware-NeverExpire",
       "module" : "https://metacpan.org/release/Plack-Middleware-NeverExpire",
-      "username" : "https://github.com/icydee"
+      "repo" : "https://github.com/ap/Plack-Middleware-NeverExpire"
    },
    {
-      "repo" : "https://github.com/hoelzro/plack-middleware-recorder",
+      "assigned" : "https://github.com/timurn",
+      "author" : "https://metacpan.org/author/RHOELZ",
       "module" : "https://metacpan.org/release/Plack-Middleware-Recorder",
-      "username" : "https://github.com/timurn",
-      "author" : "https://metacpan.org/author/RHOELZ"
+      "repo" : "https://github.com/hoelzro/plack-middleware-recorder"
    },
    {
+      "assigned" : "https://github.com/mjemmeson",
       "author" : "https://metacpan.org/author/SGRAHAM",
-      "username" : "https://github.com/mjemmeson",
       "module" : "https://metacpan.org/release/Pod-Weaver-PluginBundle-ReplaceBoilerplate",
       "repo" : "https://github.com/illusori/Perl-Pod-Weaver-PluginBundle-ReplaceBoilerplate"
    },
    {
+      "assigned" : "https://github.com/retcheverry",
       "author" : "https://metacpan.org/author/CELOGEEK",
-      "username" : "https://github.com/retcheverry",
-      "repo" : "https://github.com/celogeek/Dancer-Plugin-Redis",
-      "module" : "https://metacpan.org/release/Dancer-Plugin-Redis"
+      "module" : "https://metacpan.org/release/Dancer-Plugin-Redis",
+      "repo" : "https://github.com/celogeek/Dancer-Plugin-Redis"
    },
    {
-      "repo" : "https://github.com/perlancar/perl-Crypt-Password-Util",
+      "assigned" : "https://github.com/doyleyoung",
+      "author" : "https://metacpan.org/author/PERLANCAR",
       "module" : "https://metacpan.org/release/Crypt-Password-Util",
-      "username" : "https://github.com/doyleyoung",
-      "author" : "https://metacpan.org/author/PERLANCAR"
+      "repo" : "https://github.com/perlancar/perl-Crypt-Password-Util"
    },
    {
-      "username" : "https://github.com/ghansson",
+      "assigned" : "https://github.com/ghansson",
+      "author" : "https://metacpan.org/author/MCNEWTON",
       "module" : "https://metacpan.org/release/Alien-BWIPP",
-      "repo" : "https://github.com/daxim/Alien-BWIPP",
-      "author" : "https://metacpan.org/author/MCNEWTON"
+      "repo" : "https://github.com/daxim/Alien-BWIPP"
    },
    {
+      "assigned" : "https://github.com/ntnl",
       "author" : "https://metacpan.org/author/SHELLING",
-      "username" : "https://github.com/ntnl",
       "module" : "https://metacpan.org/release/Dancer-Plugin-WebDAV",
       "repo" : "https://github.com/shelling/dancer-plugin-webdav"
    },
    {
+      "assigned" : "https://github.com/vodiman",
+      "author" : "https://metacpan.org/author/JHTHORSEN",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-CGI",
-      "repo" : "https://github.com/jhthorsen/mojolicious-plugin-cgi",
-      "username" : "https://github.com/vodiman",
-      "author" : "https://metacpan.org/author/JHTHORSEN"
+      "repo" : "https://github.com/jhthorsen/mojolicious-plugin-cgi"
    },
    {
-      "username" : "https://github.com/notbenh",
-      "repo" : "https://github.com/captin411/devel-cover-report-clover",
+      "assigned" : "https://github.com/notbenh",
+      "author" : "https://metacpan.org/author/DBARTLE",
       "module" : "https://metacpan.org/release/Devel-Cover-Report-Clover",
-      "author" : "https://metacpan.org/author/DBARTLE"
+      "repo" : "https://github.com/captin411/devel-cover-report-clover"
    },
    {
+      "assigned" : "https://github.com/kumarswamyHV",
       "author" : "https://metacpan.org/author/CHENRYN",
-      "username" : "https://github.com/kumarswamyHV",
       "module" : "https://metacpan.org/release/HTML-TagHelper",
       "repo" : "https://github.com/chenryn/HTML-TagHelper"
    },
    {
-      "username" : "https://github.com/cakirke",
+      "assigned" : "https://github.com/cakirke",
+      "author" : "https://metacpan.org/author/GRAF",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-MethodOverride",
-      "repo" : "https://github.com/augensalat/mojolicious-plugin-methodoverride",
-      "author" : "https://metacpan.org/author/GRAF"
+      "repo" : "https://github.com/augensalat/mojolicious-plugin-methodoverride"
    },
    {
+      "assigned" : "https://github.com/iyossi",
       "author" : "https://metacpan.org/author/GRAY",
       "module" : "https://metacpan.org/release/Digest-EdonR",
-      "repo" : "https://github.com/gray/digest-edonr",
-      "username" : "https://github.com/iyossi"
+      "repo" : "https://github.com/gray/digest-edonr"
    },
    {
-      "username" : "https://github.com/Czupak",
-      "repo" : "https://github.com/koorchik/Mojolicious-Plugin-RenderFile",
+      "assigned" : "https://github.com/Czupak",
+      "author" : "https://metacpan.org/author/KOORCHIK",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-RenderFile",
-      "author" : "https://metacpan.org/author/KOORCHIK"
+      "repo" : "https://github.com/koorchik/Mojolicious-Plugin-RenderFile"
    },
    {
+      "assigned" : "https://github.com/zsyed91",
       "author" : "https://metacpan.org/author/RIZEN",
-      "username" : "https://github.com/zsyed91",
-      "repo" : "https://github.com/rizen/Ouch",
-      "module" : "https://metacpan.org/release/Ouch"
+      "module" : "https://metacpan.org/release/Ouch",
+      "repo" : "https://github.com/rizen/Ouch"
    },
    {
+      "assigned" : "https://github.com/mradile",
       "author" : "https://metacpan.org/author/GRANTM",
-      "username" : "https://github.com/mradile",
-      "repo" : "https://github.com/grantm/Dancer-Plugin-CDN",
-      "module" : "https://metacpan.org/release/Dancer-Plugin-CDN"
+      "module" : "https://metacpan.org/release/Dancer-Plugin-CDN",
+      "repo" : "https://github.com/grantm/Dancer-Plugin-CDN"
    },
    {
-      "repo" : "https://github.com/tmueller/http_exception",
+      "assigned" : "https://github.com/rkmithun",
+      "author" : "https://metacpan.org/author/TMUELLER",
       "module" : "https://metacpan.org/release/HTTP-Exception",
-      "username" : "https://github.com/rkmithun",
-      "author" : "https://metacpan.org/author/TMUELLER"
+      "repo" : "https://github.com/tmueller/http_exception"
    },
    {
+      "assigned" : "https://github.com/simoshab",
       "author" : "https://metacpan.org/author/ARJONES",
-      "username" : "https://github.com/simoshab",
       "module" : "https://metacpan.org/release/Dist-Zilla-Plugin-Test-Fixme",
       "repo" : "https://github.com/andrewrjones/perl5-Dist-Zilla-Plugin-Test-Fixme"
    },
    {
-      "username" : "https://github.com/bayashi",
-      "repo" : "https://github.com/jonasbn/Module-Info-File",
+      "assigned" : "https://github.com/bayashi",
+      "author" : "https://metacpan.org/author/JONASBN",
       "module" : "https://metacpan.org/release/Module-Info-File",
-      "author" : "https://metacpan.org/author/JONASBN"
+      "repo" : "https://github.com/jonasbn/Module-Info-File"
    },
    {
+      "assigned" : "https://github.com/elindsey",
       "author" : "https://metacpan.org/author/BRUMMETT",
-      "username" : "https://github.com/elindsey",
-      "repo" : "https://github.com/brummett/Devel-hdb",
-      "module" : "https://metacpan.org/release/Devel-hdb"
+      "module" : "https://metacpan.org/release/Devel-hdb",
+      "repo" : "https://github.com/brummett/Devel-hdb"
    },
    {
-      "repo" : "https://github.com/bradchoate/text-textile/tree/master",
+      "assigned" : "https://github.com/jjhart",
+      "author" : "https://metacpan.org/author/BCHOATE",
       "module" : "https://metacpan.org/release/Text-Textile",
-      "username" : "https://github.com/jjhart",
-      "author" : "https://metacpan.org/author/BCHOATE"
+      "repo" : "https://github.com/bradchoate/text-textile/tree/master"
    },
    {
+      "assigned" : "https://github.com/KasemOmary",
       "author" : "https://metacpan.org/author/MARCEL",
       "module" : "https://metacpan.org/release/App-Benchmark",
-      "repo" : "https://github.com/marcelgruenauer/App-Benchmark",
-      "username" : "https://github.com/KasemOmary"
+      "repo" : "https://github.com/marcelgruenauer/App-Benchmark"
    },
    {
+      "assigned" : "https://github.com/trjh",
       "author" : "https://metacpan.org/author/AGENT",
-      "repo" : "https://github.com/agentzh/makefile-parser-pm",
       "module" : "https://metacpan.org/release/Makefile-Parser",
-      "username" : "https://github.com/trjh"
+      "repo" : "https://github.com/agentzh/makefile-parser-pm"
    },
    {
+      "assigned" : "https://github.com/starbelly",
+      "author" : "https://metacpan.org/author/NEVESENIN",
       "module" : "https://metacpan.org/release/Regexp-RegGrp",
-      "repo" : "https://github.com/nevesenin/regexp-reggrp-perl",
-      "username" : "https://github.com/starbelly",
-      "author" : "https://metacpan.org/author/NEVESENIN"
+      "repo" : "https://github.com/nevesenin/regexp-reggrp-perl"
    },
    {
-      "username" : "https://github.com/stennie",
-      "repo" : "https://github.com/awwaiid/continuity",
+      "assigned" : "https://github.com/stennie",
+      "author" : "https://metacpan.org/author/AWWAIID",
       "module" : "https://metacpan.org/release/Continuity",
-      "author" : "https://metacpan.org/author/AWWAIID"
+      "repo" : "https://github.com/awwaiid/continuity"
    },
    {
+      "assigned" : "https://github.com/lostinbrain",
       "author" : "https://metacpan.org/author/FROGGS",
-      "username" : "https://github.com/lostinbrain",
-      "repo" : "https://github.com/PerlGameDev/SDL",
-      "module" : "https://metacpan.org/release/SDL"
+      "module" : "https://metacpan.org/release/SDL",
+      "repo" : "https://github.com/PerlGameDev/SDL"
    },
    {
-      "username" : "https://github.com/Evgenty",
+      "assigned" : "https://github.com/Evgenty",
+      "author" : "https://metacpan.org/author/DMITRYNOD",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-Recaptcha",
-      "repo" : "https://github.com/konstantinov/Mojolicious-Plugin-Recaptcha",
-      "author" : "https://metacpan.org/author/DMITRYNOD"
+      "repo" : "https://github.com/konstantinov/Mojolicious-Plugin-Recaptcha"
    },
    {
-      "username" : "https://github.com/BrianRossmajer",
+      "assigned" : "https://github.com/BrianRossmajer",
+      "author" : "https://metacpan.org/author/LIYANAGE",
       "module" : "https://metacpan.org/release/Geometry-AffineTransform",
-      "repo" : "https://github.com/liyanage/perl-modules",
-      "author" : "https://metacpan.org/author/LIYANAGE"
+      "repo" : "https://github.com/liyanage/perl-modules"
    },
    {
+      "assigned" : "https://github.com/bambams",
+      "author" : "https://metacpan.org/author/ASKADNA",
       "module" : "https://metacpan.org/release/Plack-Session-State-URI",
-      "repo" : "https://github.com/s-aska/p5-Plack-Session-State-URI",
-      "username" : "https://github.com/bambams",
-      "author" : "https://metacpan.org/author/ASKADNA"
+      "repo" : "https://github.com/s-aska/p5-Plack-Session-State-URI"
    },
    {
+      "assigned" : "https://github.com/jmadler",
       "author" : "https://metacpan.org/author/DOMM",
-      "repo" : "https://github.com/domm/Module-ExtractUse",
       "module" : "https://metacpan.org/release/Module-ExtractUse",
-      "username" : "https://github.com/jmadler"
+      "repo" : "https://github.com/domm/Module-ExtractUse"
    },
    {
+      "assigned" : "https://github.com/vairav",
       "author" : "https://metacpan.org/author/ROCKY",
-      "username" : "https://github.com/vairav",
-      "repo" : "https://github.com/rocky/Perl-Devel-Trepan",
-      "module" : "https://metacpan.org/release/Devel-Trepan"
+      "module" : "https://metacpan.org/release/Devel-Trepan",
+      "repo" : "https://github.com/rocky/Perl-Devel-Trepan"
    },
    {
-      "username" : "https://github.com/brummett",
-      "repo" : "https://github.com/alnewkirk/Data-Object",
+      "assigned" : "https://github.com/brummett",
+      "author" : "https://metacpan.org/author/AWNCORP",
       "module" : "https://metacpan.org/release/Data-Object",
-      "author" : "https://metacpan.org/author/AWNCORP"
+      "repo" : "https://github.com/alnewkirk/Data-Object"
    },
    {
+      "assigned" : "https://github.com/somerandomlogin",
       "author" : "https://metacpan.org/author/ILV",
-      "repo" : "https://github.com/ileiva/Text-Truncate",
       "module" : "https://metacpan.org/release/Text-Truncate",
-      "username" : "https://github.com/somerandomlogin"
+      "repo" : "https://github.com/ileiva/Text-Truncate"
    },
    {
-      "username" : "https://github.com/thunter",
-      "repo" : "https://github.com/heikojansen/mojolicious-plugin-mozpersona",
+      "assigned" : "https://github.com/thunter",
+      "author" : "https://metacpan.org/author/HJANSEN",
       "module" : "https://metacpan.org/release/Mojolicious-Plugin-MozPersona",
-      "author" : "https://metacpan.org/author/HJANSEN"
+      "repo" : "https://github.com/heikojansen/mojolicious-plugin-mozpersona"
    },
    {
+      "assigned" : "https://github.com/StarLightPL",
       "author" : "https://metacpan.org/author/ANELSON",
-      "username" : "https://github.com/StarLightPL",
       "module" : "https://metacpan.org/release/Password-Policy",
       "repo" : "https://github.com/holophrastic/password-policy"
    },
    {
-      "repo" : "https://github.com/Songmu/p5-Text-Markup-Any",
+      "assigned" : "https://github.com/bemeyert",
+      "author" : "https://metacpan.org/author/SONGMU",
       "module" : "https://metacpan.org/release/Text-Markup-Any",
-      "username" : "https://github.com/bemeyert",
-      "author" : "https://metacpan.org/author/SONGMU"
+      "repo" : "https://github.com/Songmu/p5-Text-Markup-Any"
    },
    {
-      "username" : "https://github.com/prakashk",
+      "assigned" : "https://github.com/prakashk",
+      "author" : "https://metacpan.org/author/BOBTFISH",
       "module" : "https://metacpan.org/release/Test-NoTabs",
-      "repo" : "https://github.com/bobtfish/perl-test-notabs",
-      "author" : "https://metacpan.org/author/BOBTFISH"
+      "repo" : "https://github.com/bobtfish/perl-test-notabs"
    },
    {
-      "username" : "https://github.com/waghso",
+      "assigned" : "https://github.com/waghso",
+      "author" : "https://metacpan.org/author/MINIMAL",
       "module" : "https://metacpan.org/release/Validate-Tiny",
-      "repo" : "https://github.com/naturalist/Validate--Tiny",
-      "author" : "https://metacpan.org/author/MINIMAL"
+      "repo" : "https://github.com/naturalist/Validate--Tiny"
    },
    {
-      "username" : "https://github.com/sergeyromanov",
-      "repo" : "https://github.com/niner/inline-python-pm",
+      "assigned" : "https://github.com/sergeyromanov",
+      "author" : "https://metacpan.org/author/NINE",
       "module" : "https://metacpan.org/release/Inline-Python",
-      "author" : "https://metacpan.org/author/NINE"
+      "repo" : "https://github.com/niner/inline-python-pm"
    },
    {
+      "assigned" : "https://github.com/mshogin",
+      "author" : "https://metacpan.org/author/DAMI",
       "module" : "https://metacpan.org/release/Text-Transliterator",
-      "repo" : "https://github.com/damil/Text-Transliterator",
-      "username" : "https://github.com/mshogin",
-      "author" : "https://metacpan.org/author/DAMI"
+      "repo" : "https://github.com/damil/Text-Transliterator"
    },
    {
-      "username" : "https://github.com/j1n3l0",
-      "repo" : "https://github.com/markwellis/data-validate-image",
+      "assigned" : "https://github.com/j1n3l0",
+      "author" : "https://metacpan.org/author/MARKELLIS",
       "module" : "https://metacpan.org/release/Data-Validate-Image",
-      "author" : "https://metacpan.org/author/MARKELLIS"
+      "repo" : "https://github.com/markwellis/data-validate-image"
    },
    {
+      "assigned" : "https://github.com/garfieldnate",
+      "author" : "https://metacpan.org/author/NEILB",
       "module" : "https://metacpan.org/release/HTML-ParseBrowser",
-      "repo" : "https://github.com/neilbowers/HTML-ParseBrowser",
-      "username" : "https://github.com/garfieldnate",
-      "author" : "https://metacpan.org/author/NEILB"
+      "repo" : "https://github.com/neilbowers/HTML-ParseBrowser"
    },
    {
-      "username" : "https://github.com/sharansmath",
+      "assigned" : "https://github.com/sharansmath",
+      "author" : "https://metacpan.org/author/MDORMAN",
       "module" : "https://metacpan.org/release/Dancer-Logger-LogAny",
-      "repo" : "https://github.com/mdorman/Dancer-Logger-LogAny",
-      "author" : "https://metacpan.org/author/MDORMAN"
+      "repo" : "https://github.com/mdorman/Dancer-Logger-LogAny"
    },
    {
+      "assigned" : "https://github.com/chsanch",
+      "author" : "https://metacpan.org/author/LLAP",
       "module" : "https://metacpan.org/release/Plack-Middleware-DirIndex",
-      "repo" : "https://github.com/ranguard/plack-middleware-dirindex",
-      "username" : "https://github.com/chsanch",
-      "author" : "https://metacpan.org/author/LLAP"
+      "repo" : "https://github.com/ranguard/plack-middleware-dirindex"
    },
    {
+      "assigned" : "https://github.com/jordivador",
       "author" : "https://metacpan.org/author/TEEJAY",
-      "repo" : "https://github.com/hashbangperl/perl-pdf-report",
       "module" : "https://metacpan.org/release/PDF-Report",
-      "username" : "https://github.com/jordivador"
+      "repo" : "https://github.com/hashbangperl/perl-pdf-report"
    },
    {
+      "assigned" : "https://github.com/raghugange84",
       "author" : "https://metacpan.org/author/LETO",
-      "username" : "https://github.com/raghugange84",
-      "repo" : "https://github.com/leto/math--primality",
-      "module" : "https://metacpan.org/release/Math-Primality"
+      "module" : "https://metacpan.org/release/Math-Primality",
+      "repo" : "https://github.com/leto/math--primality"
    },
    {
-      "username" : "https://github.com/BrianMowrey",
-      "repo" : "https://github.com/Perl-Toolchain-Gang/File-Temp",
+      "assigned" : "https://github.com/BrianMowrey",
+      "author" : "https://metacpan.org/author/DAGOLDEN",
       "module" : "https://metacpan.org/release/File-Temp",
-      "author" : "https://metacpan.org/author/DAGOLDEN"
+      "repo" : "https://github.com/Perl-Toolchain-Gang/File-Temp"
    },
    {
+      "assigned" : "https://github.com/jorisd",
       "author" : "https://metacpan.org/author/PEVANS",
-      "username" : "https://github.com/jorisd",
       "module" : "https://metacpan.org/release/Scalar-List-Utils",
       "repo" : "https://github.com/Scalar-List-Utils/Scalar-List-Utils"
    },
    {
-      "username" : "https://github.com/stewrav",
-      "repo" : "https://github.com/scottp/sys-hostname-long",
+      "assigned" : "https://github.com/stewrav",
+      "author" : "https://metacpan.org/author/SCOTT",
       "module" : "https://metacpan.org/release/Sys-Hostname-Long",
-      "author" : "https://metacpan.org/author/SCOTT"
+      "repo" : "https://github.com/scottp/sys-hostname-long"
    },
    {
-      "repo" : "https://github.com/steve-m-hay/perl-libnet",
+      "assigned" : "https://github.com/ctax",
+      "author" : "https://metacpan.org/author/SHAY",
       "module" : "https://metacpan.org/release/libnet",
-      "username" : "https://github.com/ctax",
-      "author" : "https://metacpan.org/author/SHAY"
+      "repo" : "https://github.com/steve-m-hay/perl-libnet"
    },
    {
+      "assigned" : "https://github.com/andyjack",
       "author" : "https://metacpan.org/author/JJNAPIORK",
-      "username" : "https://github.com/andyjack",
-      "repo" : "https://github.com/perl-catalyst/Catalyst-View-JSON",
-      "module" : "https://metacpan.org/release/Catalyst-View-JSON"
+      "module" : "https://metacpan.org/release/Catalyst-View-JSON",
+      "repo" : "https://github.com/perl-catalyst/Catalyst-View-JSON"
    },
    {
-      "username" : "https://github.com/nric62",
+      "assigned" : "https://github.com/nric62",
+      "author" : "https://metacpan.org/author/HINNERK",
       "module" : "https://metacpan.org/release/HTML-StripTags",
-      "repo" : "https://github.com/hinnerk-a/perl-strip_tags",
-      "author" : "https://metacpan.org/author/HINNERK"
+      "repo" : "https://github.com/hinnerk-a/perl-strip_tags"
    },
    {
+      "assigned" : "https://github.com/myrrhlin",
       "author" : "https://metacpan.org/author/DBR",
-      "repo" : "https://github.com/xdbr/App-OS-Detect-MachineCores",
       "module" : "https://metacpan.org/release/App-OS-Detect-MachineCores",
-      "username" : "https://github.com/myrrhlin"
+      "repo" : "https://github.com/xdbr/App-OS-Detect-MachineCores"
    },
    {
-      "repo" : "https://github.com/hailo/hailo",
+      "assigned" : "https://github.com/deven",
+      "author" : "https://metacpan.org/author/AVAR",
       "module" : "https://metacpan.org/release/Hailo",
-      "username" : "https://github.com/deven",
-      "author" : "https://metacpan.org/author/AVAR"
+      "repo" : "https://github.com/hailo/hailo"
    },
    {
+      "assigned" : "https://github.com/sebokopter",
       "author" : "https://metacpan.org/author/DANKOGAI",
-      "username" : "https://github.com/sebokopter",
-      "repo" : "https://github.com/dankogai/p5-encode",
-      "module" : "https://metacpan.org/release/Encode"
+      "module" : "https://metacpan.org/release/Encode",
+      "repo" : "https://github.com/dankogai/p5-encode"
    },
    {
-      "username" : "https://github.com/ptolemarch",
-      "repo" : "https://github.com/neilbowers/Module-Reload",
+      "assigned" : "https://github.com/ptolemarch",
+      "author" : "https://metacpan.org/author/NEILB",
       "module" : "https://metacpan.org/release/Module-Reload",
-      "author" : "https://metacpan.org/author/NEILB"
+      "repo" : "https://github.com/neilbowers/Module-Reload"
    },
    {
+      "assigned" : "https://github.com/harris901",
       "author" : "https://metacpan.org/author/WOLFSAGE",
-      "username" : "https://github.com/harris901",
       "module" : "https://metacpan.org/release/Devel-PPPort",
       "repo" : "https://github.com/mhx/Devel-PPPort"
    },
    {
-      "username" : "https://github.com/ramananbalakrishnan",
-      "repo" : "https://github.com/reneeb/Perl-Critic-OTRS",
+      "assigned" : "https://github.com/ramananbalakrishnan",
+      "author" : "https://metacpan.org/author/RENEEB",
       "module" : "https://metacpan.org/release/Perl-Critic-OTRS",
-      "author" : "https://metacpan.org/author/RENEEB"
+      "repo" : "https://github.com/reneeb/Perl-Critic-OTRS"
    },
    {
+      "assigned" : "https://github.com/2shortplanks",
       "author" : "https://metacpan.org/author/DBOOK",
-      "username" : "https://github.com/2shortplanks",
       "module" : "https://metacpan.org/release/POE-Loop-EV",
       "repo" : "https://github.com/Grinnz/POE-Loop-EV"
    },
    {
-      "repo" : "https://github.com/TJC/Test-postgresql",
+      "assigned" : "https://github.com/molecules",
+      "author" : "https://metacpan.org/author/TJC",
       "module" : "https://metacpan.org/release/Test-PostgreSQL",
-      "username" : "https://github.com/molecules",
-      "author" : "https://metacpan.org/author/TJC"
+      "repo" : "https://github.com/TJC/Test-postgresql"
    },
    {
-      "username" : "https://github.com/jamessan",
-      "repo" : "https://github.com/benbernard/RecordStream",
+      "assigned" : "https://github.com/jamessan",
+      "author" : "https://metacpan.org/author/TSIBLEY",
       "module" : "https://metacpan.org/release/App-RecordStream",
-      "author" : "https://metacpan.org/author/TSIBLEY"
+      "repo" : "https://github.com/benbernard/RecordStream"
    },
    {
+      "assigned" : "https://github.com/console0",
       "author" : "https://metacpan.org/author/HVOERS",
-      "username" : "https://github.com/console0",
-      "repo" : "https://github.com/LoonyPandora/Dancer-Plugin-Passphrase",
-      "module" : "https://metacpan.org/release/Dancer-Plugin-Passphrase"
+      "module" : "https://metacpan.org/release/Dancer-Plugin-Passphrase",
+      "repo" : "https://github.com/LoonyPandora/Dancer-Plugin-Passphrase"
    },
    {
-      "username" : "https://github.com/ricecake",
+      "assigned" : "https://github.com/ricecake",
+      "author" : "https://metacpan.org/author/EWATERS",
       "module" : "https://metacpan.org/release/Thrift-Parser",
-      "repo" : "https://github.com/ewaters/thrift-parser",
-      "author" : "https://metacpan.org/author/EWATERS"
+      "repo" : "https://github.com/ewaters/thrift-parser"
    },
    {
-      "username" : "https://github.com/spacebat",
+      "assigned" : "https://github.com/spacebat",
+      "author" : "https://metacpan.org/author/RUEYCHENG",
       "module" : "https://metacpan.org/release/Module-Starter-Smart",
-      "repo" : "https://github.com/rueycheng/Module-Starter-Smart",
-      "author" : "https://metacpan.org/author/RUEYCHENG"
+      "repo" : "https://github.com/rueycheng/Module-Starter-Smart"
    },
    {
+      "assigned" : "https://github.com/geofffranks",
       "author" : "https://metacpan.org/author/SHUFF",
       "module" : "https://metacpan.org/release/WebService-Pushover",
-      "repo" : "https://github.com/hakamadare/webservice-pushover",
-      "username" : "https://github.com/geofffranks"
+      "repo" : "https://github.com/hakamadare/webservice-pushover"
    },
    {
+      "assigned" : "https://github.com/medina",
       "author" : "https://metacpan.org/author/ECOCODE",
-      "repo" : "https://github.com/finance-quote/finance-quote",
       "module" : "https://metacpan.org/release/Finance-Quote",
-      "username" : "https://github.com/medina"
+      "repo" : "https://github.com/finance-quote/finance-quote"
    },
    {
+      "assigned" : "https://github.com/oalders",
       "author" : "https://metacpan.org/author/OLIVER",
-      "repo" : "https://github.com/ollyg/Catalyst-Plugin-AutoCRUD",
       "module" : "https://metacpan.org/release/Catalyst-Plugin-AutoCRUD",
-      "username" : "https://github.com/oalders"
+      "repo" : "https://github.com/ollyg/Catalyst-Plugin-AutoCRUD"
    },
    {
+      "assigned" : "https://github.com/rvandam",
       "author" : "https://metacpan.org/author/AKREAL",
-      "username" : "https://github.com/rvandam",
       "module" : "https://metacpan.org/release/Proc-Daemon",
       "repo" : "https://github.com/akreal/Proc-Daemon"
    }
