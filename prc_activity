@@ -37,7 +37,7 @@ sub run {
 #        print Dumper [$assigned, $pause_id, $module, $author, $repo];
         my $pulls = eval { $pr->pulls($author, $repo, { state => 'all' }) };
         my $err = $@;
-        printf "%d requests made, %d remaining\n", ++$i, $pr->ua->response->header('x-ratelimit-remaining');
+        printf "%d requests made, %d remaining\n", ++$i, eval { $pr->ua->response->header('x-ratelimit-remaining') } || 0;
         if ($err) {
             warn "Failed to find pull requests for $author/$repo: $err\n";
             next;
@@ -90,8 +90,9 @@ sub get_token {
     my $self = shift;
 
     return $self->{'token'} ||= do {
-        open my $token_fh, '<', 'my_token' or die; # conveniently .gitignored (for security!)
-        my $token = <$token_fh> // die "Unable to find your token on first line of 'my_token' file (perhaps you didn't create it yet?)\n";
+        my $err = "Unable to find your token on first line of 'my_token' file (perhaps you didn't create it yet?)\n";
+        open my $token_fh, '<', 'my_token' or die $err; # conveniently .gitignored (for security!)
+        my $token = <$token_fh> // die $err;
         close $token_fh;
 
         return $token;
@@ -105,7 +106,6 @@ sub get_assignments {
         my $json = do { $/ = undef; <> or die };
         my $new_list = from_json($json); # dies on bad data, maybe need nicer error?
         push @$list, @$new_list;
-        shift @ARGV;
     }
     return $list;
 }
