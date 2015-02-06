@@ -1,0 +1,121 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Net::GitHub;
+use Data::Dumper;
+use JSON;
+
+die "Please specify a filename with a json dump of the desired assignments\n" if ! $ARGV[0];
+__PACKAGE__->new->run;
+
+sub new {
+    my $class = shift;
+    bless {}, $class;
+}
+
+sub run {
+    my $self = shift;
+
+    my $token = $self->get_token;
+    my $assigns = $self->get_assignments;
+
+#    print Data::Dumper::Dumper($assigns);
+
+    my $stats;
+    my $per_repo;
+    my $pr = $self->github->pull_request;
+    my $recent = [];
+    my $i = 0;
+    foreach my $assign (@$assigns) {
+        my ($assigned) = $assign->{'assigned'} =~ m{([^/]+)$}xms;
+        my ($pause_id) = $assign->{'author'} =~ m{([^/]+)$}xms;
+        my ($module) = $assign->{'module'} =~ m{([^/]+)$}xms;
+        my ($author, $repo) = $assign->{'repo'} =~ m{github\.com / ([^/]+) / ([^/]+)}xms; # can't anchor to end, some links have branch names
+        $assigned = lc $assigned;
+#        print Dumper [$assigned, $pause_id, $module, $author, $repo];
+        my $pulls = eval { $pr->pulls($author, $repo, { state => 'all' }) };
+        my $err = $@;
+        printf "%d requests made, %d remaining\n", ++$i, $pr->ua->response->header('x-ratelimit-remaining');
+        if ($err) {
+            warn "Failed to find pull requests for $author/$repo: $err\n";
+            next;
+        }
+#        print Dumper $pulls;
+
+        foreach my $pull (@$pulls) {
+            my $s = $per_repo->{"$author/$repo"} ||= {};
+
+            my ($closed, $merged, $created, $user ) = @{ $pull }{ qw(closed_at merged_at created_at user) };
+            $user = lc $user->{'login'} if $user && $user->{'login'};
+            my ($month) = $created ? $created =~ /^(\d{4}-\d{2})/xms : undef;
+
+            foreach ($s, $stats) {
+                $_->{'total'}++;
+                $_->{'open'}++ if ! $closed;
+                $_->{'merged'}++ if $merged;
+                $_->{'by_assigned'}++ if $user && $user eq $assigned;
+                $_->{'by_assigned_merged'}++ if $user && $user eq $assigned && $merged;
+                $_->{'months'}->{$month}++ if $month;
+                $_->{'by_assigned_months'}->{$month}++ if $month && $user && $user eq $assigned;
+                $_->{'assignee'}->{$assigned}++ if $user && $user eq $assigned;
+            }
+
+            push @$recent, $pull if $user && $user eq $assigned;
+        }
+    }
+    @$recent = reverse sort { $a->{'updated_at'} cmp $b->{'updated_at'} } @$recent;
+
+    @$recent = @{ $recent }[0..99] if @$recent > 99;
+
+    print Dumper $stats, $per_repo;
+
+    open my $fh, '+>', 'total_stats' or die;
+    print $fh to_json($stats, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+
+    open $fh, '+>', 'per_repo' or die;
+    print $fh to_json($per_repo, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+
+    open $fh, '+>', 'recent' or die;
+    print $fh to_json($recent, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+}
+
+# parse personal token from 'my_token' file
+# TODO: read username/password and use oauth as fallback
+sub get_token {
+    my $self = shift;
+
+    return $self->{'token'} ||= do {
+        open my $token_fh, '<', 'my_token' or die; # conveniently .gitignored (for security!)
+        my $token = <$token_fh> // die "Unable to find your token on first line of 'my_token' file (perhaps you didn't create it yet?)\n";
+        close $token_fh;
+
+        return $token;
+    }
+}
+
+# read as many files as we were provided
+sub get_assignments {
+    my $list = [];
+    while (@ARGV) {
+        my $json = do { $/ = undef; <> or die };
+        my $new_list = from_json($json); # dies on bad data, maybe need nicer error?
+        push @$list, @$new_list;
+        shift @ARGV;
+    }
+    return $list;
+}
+
+sub github { my $self = shift; $self->{'github'} ||= Net::GitHub->new(access_token => $self->get_token) }
+
+__END__
+my $github = Net::GitHub->new(access_token => $token);
+
+my $user = $github->user->show('rvandam');
+use Data::Dumper;
+print Dumper $user;
+
