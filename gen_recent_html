@@ -53,6 +53,7 @@ sub print_header {
             .pull_request { border-top: 1px solid #dfdfdf; padding: 15px; }
             .summary { font-weight: bold }
             .title { color: #666; font-size: 85% }
+            .special { background-color: yellow; }
         </style>
     </head>
     <body>
@@ -95,6 +96,17 @@ sub relative_date {
     return $short . ' ago';
 }
 
+sub special {
+    my $self = shift;
+
+    return $self->{'special'} ||= do {
+        open my $fh, '<', 'special';
+        my $lines = do { $/ = undef; <$fh> };
+        my $special = { map { $_ => 1 } grep { $_ } split /\n/, lc $lines };
+        $special;
+    }
+}
+
 # TODO: highlight anything in the last 15 minutes in yellow!
 sub print_pull_request {
     my $self = shift;
@@ -116,12 +128,13 @@ sub print_pull_request {
     my $repo_name = $pr->{'base'}->{'repo'}->{'name'};
     my $repo_description = $pr->{'base'}->{'repo'}->{'description'};
     my $pull_request_title = $pr->{'title'};
+    my $is_special = $self->special->{lc $requestor_username} ? 'special' : '';
 
     my $size = 45;
 
     # pull requester, pull receiver, repo, repo description?, pull request title?
     print qq{
-        <div class="pull_request">
+        <div class="pull_request $is_special">
             <div class="time"><time datetime="$updated" title="$pretty_updated">$relative</time></div>
             <div class="summary">
                 <a href="$requestor_url"><img alt="\$requestor_name" class="gravatar" height="$size" width="$size" src="$requestor_gravatar">$requestor_username</a>
