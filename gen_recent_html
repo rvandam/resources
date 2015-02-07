@@ -54,6 +54,7 @@ sub print_header {
             .summary { font-weight: bold }
             .title { color: #666; font-size: 85% }
             .special { background-color: yellow; }
+            .merged { color: red; font-size: 40px; }
         </style>
     </head>
     <body>
@@ -113,6 +114,8 @@ sub print_pull_request {
     my $pr = shift;
 
     my $updated = $pr->{'updated_at'};
+    my $merged  = $pr->{'merged_at'} ? 'MERGED!' : '';
+    my $closed  = $pr->{'closed_at'};
     my $dt = $self->datetime($updated);
     my $pretty_updated = $self->pretty_date($dt);
     my $relative = $self->relative_date($dt);
@@ -148,6 +151,7 @@ sub print_pull_request {
                 <span>($repo_description)</span>
             </div>
             <div class="title"><blockquote>$pull_request_title</blockquote></div>
+            <div class="merged">$merged</div>
             <!-- div class="details">\$pull_request_details</div -->
         </div>
     };
