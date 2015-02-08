@@ -65,7 +65,7 @@ sub run {
             push @$recent, $pull if $user && $user eq $assigned;
         }
     }
-    @$recent = reverse sort { $a->{'updated_at'} cmp $b->{'updated_at'} } @$recent;
+    @$recent = reverse sort { $a->{'created_at'} cmp $b->{'created_at'} } @$recent;
 
     @$recent = @{ $recent }[0..99] if @$recent > 99;
 
