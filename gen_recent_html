@@ -113,11 +113,11 @@ sub print_pull_request {
     my $self = shift;
     my $pr = shift;
 
-    my $updated = $pr->{'updated_at'};
+    my $created = $pr->{'created_at'};
     my $merged  = $pr->{'merged_at'} ? 'MERGED!' : '';
     my $closed  = $pr->{'closed_at'};
-    my $dt = $self->datetime($updated);
-    my $pretty_updated = $self->pretty_date($dt);
+    my $dt = $self->datetime($created);
+    my $pretty_created = $self->pretty_date($dt);
     my $relative = $self->relative_date($dt);
     my $requestor_url = $pr->{'user'}->{'html_url'};
     my $requestor_gravatar = $pr->{'user'}->{'avatar_url'} . '&s=60';
@@ -138,7 +138,7 @@ sub print_pull_request {
     # pull requester, pull receiver, repo, repo description?, pull request title?
     print qq{
         <div class="pull_request $is_special">
-            <div class="time"><time datetime="$updated" title="$pretty_updated">$relative</time></div>
+            <div class="time"><time datetime="$created" title="$pretty_created">$relative</time></div>
             <div class="summary">
                 <a href="$requestor_url"><img alt="\$requestor_name" class="gravatar" height="$size" width="$size" src="$requestor_gravatar">$requestor_username</a>
                 <span>opened pull request</span>
