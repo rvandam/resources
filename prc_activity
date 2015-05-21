@@ -112,10 +112,15 @@ sub get_assignments {
 
 sub github { my $self = shift; $self->{'github'} ||= Net::GitHub->new(access_token => $self->get_token) }
 
-__END__
-my $github = Net::GitHub->new(access_token => $token);
+# read list of users
+sub special {
+    my $self = shift;
 
-my $user = $github->user->show('rvandam');
-use Data::Dumper;
-print Dumper $user;
-
+    return {} if ! -e 'special';
+    return $self->{'special'} ||= do {
+        open my $fh, '<', 'special' or warn $! and return {};
+        my $lines = do { $/ = undef; <$fh> };
+        my $special = { map { $_ => 1 } grep { $_ } split /\n/, lc $lines };
+        $special;
+    }
+}

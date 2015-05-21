@@ -100,8 +100,9 @@ sub relative_date {
 sub special {
     my $self = shift;
 
+    return {} if ! -e 'special';
     return $self->{'special'} ||= do {
-        open my $fh, '<', 'special';
+        open my $fh, '<', 'special' or warn $! and return {};
         my $lines = do { $/ = undef; <$fh> };
         my $special = { map { $_ => 1 } grep { $_ } split /\n/, lc $lines };
         $special;
