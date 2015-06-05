@@ -1,0 +1,159 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use JSON;
+use Time::Local;
+use DateTime;
+use DateTime::Format::ISO8601;
+use DateTime::Format::Duration;
+
+die "Please specify a filename with a json dump of the desired assignments\n" if ! $ARGV[0];
+__PACKAGE__->new->run;
+
+sub new {
+    my $class = shift;
+    bless {}, $class;
+}
+
+sub run {
+    my $self = shift;
+
+    $self->print_header;
+
+    my $recent = $self->get_recent;
+    foreach my $pull_request (@$recent) {
+        $self->print_pull_request($pull_request);
+    }
+}
+
+# read recent activity dump from provided file
+sub get_recent {
+    my $self = shift;
+    my $json = do { $/ = undef; <> or die };
+    my $list = from_json($json); # dies on bad data, maybe need nicer error?
+    return $self->filtered($list);
+}
+
+# TODO: read from a 'filter' file a list of usernames that we actually care about and only show those
+sub filtered {
+    my $self = shift;
+    my $list = shift;
+}
+
+sub print_header {
+    print qq{
+<html>
+    <head>
+        <style>
+            body { font: 30px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; color: #333 }
+            img { margin-right: 0.6em; vertical-align: text-top; border-radius: 3px; }
+            .time { color: #bbb; font-size: 75%; }
+            .pull_request { border-top: 1px solid #dfdfdf; padding: 15px; }
+            .summary { font-weight: bold }
+            .title { color: #666; font-size: 85% }
+            .special { background-color: yellow; }
+            .merged { color: red; font-size: 40px; }
+        </style>
+    </head>
+    <body>
+    };
+}
+
+sub print_footer {
+    print qq{
+        <script>
+            document.setInterval(function() { location.reload() }, 1000)
+        </script>
+    </body>
+</html>
+    };
+}
+
+sub datetime {
+    my $self = shift;
+    my $date = shift;
+    return if ! $date;
+    return DateTime::Format::ISO8601->parse_datetime($date);
+}
+sub pretty_date {
+    my $self = shift;
+    my $dt = shift;
+    return if ! $dt;
+    return scalar localtime $dt->epoch;
+}
+
+sub pattern { shift->{'pattern'} ||= DateTime::Format::Duration->new(pattern => '%Y years, %m months, %e days, %k hours, %M minutes, %S seconds', normalize => 1) }
+sub relative_date {
+    my $self = shift;
+    my $dt = shift;
+    return if ! $dt;
+    my $diff = DateTime->now->subtract_datetime($dt);
+    my $short = $self->pattern->format_duration($diff);
+    $short =~ s/\b0+\ \w+,//gxms;
+    $short = join ', ', (split ', ', $short)[0..1];
+    $short =~ s/\b(1\ \w+)s/$1/gxms; # 1 hours => 1 hour
+    return $short . ' ago';
+}
+
+sub special {
+    my $self = shift;
+
+    return {} if ! -e 'special';
+    return $self->{'special'} ||= do {
+        open my $fh, '<', 'special' or warn $! and return {};
+        my $lines = do { $/ = undef; <$fh> };
+        my $special = { map { $_ => 1 } grep { $_ } split /\n/, lc $lines };
+        $special;
+    }
+}
+
+# TODO: highlight anything in the last 15 minutes in yellow!
+sub print_pull_request {
+    my $self = shift;
+    my $pr = shift;
+
+    my $created = $pr->{'created_at'};
+    my $merged  = $pr->{'merged_at'} ? 'MERGED!' : '';
+    my $closed  = $pr->{'closed_at'};
+    my $dt = $self->datetime($created);
+    my $pretty_created = $self->pretty_date($dt);
+    my $relative = $self->relative_date($dt);
+    my $requestor_url = $pr->{'user'}->{'html_url'};
+    my $requestor_gravatar = $pr->{'user'}->{'avatar_url'} . '&s=60';
+    my $requestor_username = $pr->{'user'}->{'login'};
+    my $pull_request_url = $pr->{'_links'}->{'html'};
+    my $pull_request_number = $pr->{'number'};
+    my $author_url = $pr->{'base'}->{'repo'}->{'owner'}->{'html_url'};
+    my $author_gravatar = $pr->{'base'}->{'repo'}->{'owner'}->{'avatar_url'} . '&s=60';
+    my $author_username = $pr->{'base'}->{'repo'}->{'owner'}->{'login'};
+    my $repo_url = $pr->{'base'}->{'repo'}->{'html_url'};
+    my $repo_name = $pr->{'base'}->{'repo'}->{'name'};
+    my $repo_description = $pr->{'base'}->{'repo'}->{'description'};
+    my $pull_request_title = $pr->{'title'};
+    my $is_special = $self->special->{lc $requestor_username} ? 'special' : '';
+
+    my $size = 45;
+
+    # pull requester, pull receiver, repo, repo description?, pull request title?
+    print qq{
+        <div class="pull_request $is_special">
+            <div class="time"><time datetime="$created" title="$pretty_created">$relative</time></div>
+            <div class="summary">
+                <a href="$requestor_url"><img alt="\$requestor_name" class="gravatar" height="$size" width="$size" src="$requestor_gravatar">$requestor_username</a>
+                <span>opened pull request</span>
+                <a href="$pull_request_url">#$pull_request_number</a>
+                <span>for</span>
+                <br>
+                <a href="$author_url"><img alt="\$author_name" class="gravatar" height="$size" width="$size" src="$author_gravatar">$author_username</a>
+                <span>/</span>
+                <a href="$repo_url">$repo_name</a>
+                <span>($repo_description)</span>
+            </div>
+            <div class="title"><blockquote>$pull_request_title</blockquote></div>
+            <div class="merged">$merged</div>
+            <!-- div class="details">\$pull_request_details</div -->
+        </div>
+    };
+}
