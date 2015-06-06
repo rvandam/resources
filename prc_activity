@@ -1,0 +1,163 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Net::GitHub;
+use Mojo::UserAgent;
+use Data::Dumper;
+use DateTime::Format::HTTP;
+use JSON;
+use Carp::Always;
+
+my $CPAN_PRC = "http://cpan-prc.org/";
+my $TEMP_PATH = "/tmp/cpan-prc/";
+
+#die "Please specify a filename with a json dump of the desired assignments\n" if ! $ARGV[0];
+__PACKAGE__->new->run;
+
+sub new {
+    my $class = shift;
+    bless {}, $class;
+}
+
+sub run {
+    my $self = shift;
+
+    my $token = $self->get_token;
+    my $months = $self->get_months;
+
+#    print Data::Dumper::Dumper($months);
+
+    my $stats;
+    my $per_repo;
+    my $pr = $self->github->pull_request;
+    my $recent = [];
+    my $i = 0;
+    foreach my $assign (@{ $months->[-1]->{'assignments'} }) {
+        my $assigned = lc $assign->{'assignee'}->{'github_username'};
+        my $pause_id = $assign->{'released_by'}->{'RJBS'};
+        my $module   = $assign->{'distname'};
+        my ($author, $repo) = split '/', $assign->{'repo'}->{'relpath'};
+
+#        print Dumper [$assigned, $pause_id, $module, $author, $repo, $assign];
+
+        # FIXME: only fetch pull requests if ! done
+        # FIXME: use the pull requests that neil already fetched
+        my $pulls = eval { $pr->pulls($author, $repo, { state => 'all' }) };
+        my $err = $@;
+        printf "%d requests made, %d remaining\n", ++$i, eval { $pr->ua->response->header('x-ratelimit-remaining') } || 0;
+        if ($err) {
+            warn "Failed to find pull requests for $author/$repo: $err\n";
+            next;
+        }
+#        print Dumper $pulls;
+
+        foreach my $pull (@$pulls) {
+            my $s = $per_repo->{"$author/$repo"} ||= {};
+
+            my ($closed, $merged, $created, $user ) = @{ $pull }{ qw(closed_at merged_at created_at user) };
+            $user = lc $user->{'login'} if $user && $user->{'login'};
+            my ($month) = $created ? $created =~ /^(\d{4}-\d{2})/xms : undef;
+
+            foreach ($s, $stats) {
+                $_->{'total'}++;
+                $_->{'open'}++ if ! $closed;
+                $_->{'merged'}++ if $merged;
+                $_->{'by_assigned'}++ if $user && $user eq $assigned;
+                $_->{'by_assigned_merged'}++ if $user && $user eq $assigned && $merged;
+                $_->{'months'}->{$month}++ if $month;
+                $_->{'by_assigned_months'}->{$month}++ if $month && $user && $user eq $assigned;
+                $_->{'assignee'}->{$assigned}++ if $user && $user eq $assigned;
+            }
+
+            push @$recent, $pull if $user && $user eq $assigned;
+        }
+    }
+    @$recent = reverse sort { $a->{'created_at'} cmp $b->{'created_at'} } @$recent;
+
+    @$recent = @{ $recent }[0..99] if @$recent > 99;
+
+    print Dumper $stats, $per_repo;
+
+    open my $fh, '+>', 'total_stats' or die;
+    print $fh to_json($stats, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+
+    open $fh, '+>', 'per_repo' or die;
+    print $fh to_json($per_repo, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+
+    open $fh, '+>', 'recent' or die;
+    print $fh to_json($recent, { pretty => 1, utf8 => 1, canonical => 1 });
+    close $fh;
+}
+
+# parse personal token from 'my_token' file
+# TODO: read username/password and use oauth as fallback
+sub get_token {
+    my $self = shift;
+
+    return $self->{'token'} ||= do {
+        my $err = "Unable to find your token on first line of 'my_token' file (perhaps you didn't create it yet?)\n";
+        open my $token_fh, '<', 'my_token' or die $err; # conveniently .gitignored (for security!)
+        my $token = <$token_fh> // die $err;
+        close $token_fh;
+
+        return $token;
+    }
+}
+
+sub get_months {
+    my $self = shift;
+
+    my $list = [];
+    MONTH: foreach (qw(january february march april may june july august september october november december)) {
+        my $file = "$_.json";
+        my $path = "$TEMP_PATH$file";
+        my $url = "$CPAN_PRC$file";
+
+        # check cached file and refetch from url if older than cache
+        my $refetch = 1;
+        if (-e $path && -s $path) {
+            my $modified = (stat(_))[9];
+
+            my $head = $self->ua->head($url);
+            my $expires = $head->res->headers->expires;
+            next MONTH if ! $expires;
+            my $epoch = DateTime::Format::HTTP->parse_datetime($expires)->epoch;
+            $refetch = 0 if $modified < $epoch;
+        }
+
+        my $json;
+        if ($refetch) {
+            $json = eval { $self->ua->get($url)->res->json } or next MONTH;
+            mkdir $TEMP_PATH if ! -d $TEMP_PATH;
+            open my $fh, '+>', $path or warn $! and next MONTH;
+            eval { print $fh to_json($json, { allow_blessed => 1 }) } or warn $@;
+        } else {
+            open my $fh, '<', $path or warn $! and next MONTH;
+            my $raw = do { $/ = undef; <$fh> };
+            $json = from_json($raw);
+        }
+
+        push @$list, $json;
+    }
+    return $list;
+}
+
+sub ua { my $self = shift; $self->{'ua'} ||= Mojo::UserAgent->new }
+sub github { my $self = shift; $self->{'github'} ||= Net::GitHub->new(access_token => $self->get_token) }
+
+# read list of users
+sub special {
+    my $self = shift;
+
+    return {} if ! -e 'special';
+    return $self->{'special'} ||= do {
+        open my $fh, '<', 'special' or warn $! and return {};
+        my $lines = do { $/ = undef; <$fh> };
+        my $special = { map { $_ => 1 } grep { $_ } split /\n/, lc $lines };
+        $special;
+    }
+}
