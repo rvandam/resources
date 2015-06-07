@@ -9,7 +9,8 @@ use DateTime;
 use DateTime::Format::ISO8601;
 use DateTime::Format::Duration;
 
-die "Please specify a filename with a json dump of the desired assignments\n" if ! $ARGV[0];
+# NOTE this should run as a cron
+
 __PACKAGE__->new->run;
 
 sub new {
@@ -26,12 +27,24 @@ sub run {
     foreach my $pull_request (@$recent) {
         $self->print_pull_request($pull_request);
     }
+
+    $self->print_footer;
+}
+
+# read stats
+sub get_stats {
+    my $self = shift;
+    open my $stats, '<', 'total_stats' or die $!;
+    my $json = do { $/ = undef; <$stats> or die $! };
+    my $list = from_json($json); # dies on bad data, maybe need nicer error?
+    return $list;
 }
 
 # read recent activity dump from provided file
 sub get_recent {
     my $self = shift;
-    my $json = do { $/ = undef; <> or die };
+    open my $recent, '<', 'recent' or die $!;
+    my $json = do { $/ = undef; <$recent> or die $! };
     my $list = from_json($json); # dies on bad data, maybe need nicer error?
     return $self->filtered($list);
 }
@@ -42,30 +55,146 @@ sub filtered {
     my $list = shift;
 }
 
+sub table {
+    my $self = shift;
+    my $stats = $self->get_stats->{'by_month'};
+
+    my @months = qw(January Febrary March April May June July August September October November December);
+    my $table = q{
+        <tr>
+            <th></th>
+            <th colspan="3">Assignments</th>
+            <th colspan="10">Pull Requests</th>
+        </tr>
+        <tr>
+            <th>Month</th>
+            <th>Total</th>
+            <th>Done</th>
+            <th>Percent</th>
+            <th>Total</th>
+            <th>Open</th>
+            <th>Merged</th>
+            <th>Closed</th>
+         </tr>
+        </tr>
+    };
+    foreach my $m (0..$#months) {
+        next if ! $stats->[$m]->{'total'};
+        $table .= join "\n", '<tr>', "<th>$months[$m]</th>", map { "<td>$_</td>" } map { $_ || '' } @{ $stats->[$m] }{ qw(total done percent pull_requests open merged closed) };
+    }
+
+    return $table;
+}
+
 sub print_header {
+    my $self = shift;
+    my $table = $self->table;
+
     print qq{
+<!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="refresh" content="60">
         <style>
-            body { font: 30px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; color: #333 }
-            img { margin-right: 0.6em; vertical-align: text-top; border-radius: 3px; }
+            /* from github.com */
+            a { text-decoration: none }
+            a:active, a:hover { outline: 0px none; text-decoration: none; }
+
+            .issue-title-link { padding-right: 3px; margin-bottom: 2px; font-size: 15px; font-weight: bold; line-height: 1.2; color: #333 }
+            .issue-title-link:hover { color: #4078C0; }
+            .issue-nwo-link { color: #767676; }
+
+            /* new stuff */
+            .left  { float: left; }
+            .right { float: right; }
+            .cr    { clear: right; }
+
+            .requestor { min-width: 10em; text-align: center; }
+            .status .btn { min-width: 6em; font-weight: bold; }
+            .summary { margin-left: 2em; }
+            .special { background-color: yellow; }
+            .glyphicon { top: 3px; }
+
+            /* old stuff */
+            /*  
             .time { color: #bbb; font-size: 75%; }
             .pull_request { border-top: 1px solid #dfdfdf; padding: 15px; }
             .summary { font-weight: bold }
             .title { color: #666; font-size: 85% }
-            .special { background-color: yellow; }
             .merged { color: red; font-size: 40px; }
+            */
         </style>
     </head>
     <body>
+
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">YAPC::NA Pull Request Hackathon Dashboard</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="http://yapcna.org">YAPC::NA</a></li>
+                <li><a href="http://cpan-prc.org">CPAN PRC</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+            <div>
+                <div class="panel panel-default panel-primary">
+                    <div class="panel-heading">Info</div>
+                    <div class="panel-body">
+                        <h4>About</h4>
+                        <p>Each month a CPAN distribution is assigned to you.
+                        You have one month to submit at least one pull request.</p>
+
+                        <h4>Sign up!</h4>
+                        <p>Email your github username (and your PAUSE id if you have one) to neil at bowers dot com</p>
+
+                        <h4>Community</h4>
+                        <p><strong>IRC:</strong> Hang out with other PR challengers on <a href="http://irc.perl.org">irc.perl.org</a>#pr-challenge
+                        (<a href="http://irclog.perlgeek.de/pr-challenge/today">Chat logs</a>)</p>
+                        <p><strong>Mailing list:</strong> Subscribe via blank email to <a href="mailto:challenge-subscribe\@cpan-prc.org">challenge-subscribe\@cpan-prc.org</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="panel panel-default panel-primary">
+                    <div class="panel-heading">Stats</div>
+                    <table class="table">$table</table>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-8">
+                <div class="panel panel-default panel-primary">
+                    <div class="panel-heading">Recent Pull Requests</div>
+                        <ul class="list-group">
     };
 }
 
 sub print_footer {
     print qq{
-        <script>
-            document.setInterval(function() { location.reload() }, 1000)
-        </script>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
     </body>
 </html>
     };
@@ -123,7 +252,7 @@ sub print_pull_request {
     my $requestor_url = $pr->{'user'}->{'html_url'};
     my $requestor_gravatar = $pr->{'user'}->{'avatar_url'} . '&s=60';
     my $requestor_username = $pr->{'user'}->{'login'};
-    my $pull_request_url = $pr->{'_links'}->{'html'};
+    my $pull_request_url = $pr->{'_links'}->{'html'}->{'href'};
     my $pull_request_number = $pr->{'number'};
     my $author_url = $pr->{'base'}->{'repo'}->{'owner'}->{'html_url'};
     my $author_gravatar = $pr->{'base'}->{'repo'}->{'owner'}->{'avatar_url'} . '&s=60';
@@ -133,10 +262,41 @@ sub print_pull_request {
     my $repo_description = $pr->{'base'}->{'repo'}->{'description'};
     my $pull_request_title = $pr->{'title'};
     my $is_special = $self->special->{lc $requestor_username} ? 'special' : '';
+    my $num_comments = $pr->{'num_comments'};
 
     my $size = 45;
+    use Data::Dumper qw(Dumper);
+#    print "<pre>" . Dumper($pr) . "</pre>";
 
     # pull requester, pull receiver, repo, repo description?, pull request title?
+    my $status_class = $merged ? 'success' : $closed ? 'danger' : 'info';
+    my $status_text  = $merged ? 'Merged'  : $closed ? 'Closed' : 'Open';
+    print qq{
+        <li class="list-group-item $is_special clearfix">
+            <div class="requestor left">
+                <div><img alt="\$requestor_name" class="gravatar" height="$size" width="$size" src="$requestor_gravatar"></div>
+                <div>$requestor_username</div>
+            </div>
+            <div class="status left"><a type="a" class="btn btn-$status_class">$status_text</a></div>
+            <div class="summary left">
+                <div>
+                    <a class="issue-title-link issue-nwo-link" href="$repo_url">$author_username/$repo_name</a>
+                    <a class="issue-title-link" href="$pull_request_url">$pull_request_title</a>
+                </div>
+                <div>
+                    #$pull_request_number opened <time datetime="$created" title="$pretty_created">$relative</time>
+                    by <a href="$requestor_url">$requestor_username</a>
+                </div>
+            </div>
+            <div class="summary right cr">
+                <a class="issue-title-link" href="$pull_request_url">
+                    <span class="glyphicon glyphicon-comment"></span>
+                    <span>&nbsp; $num_comments</span>
+                </a>
+            </div>
+        </li>
+    };
+    return;
     print qq{
         <div class="pull_request $is_special">
             <div class="time"><time datetime="$created" title="$pretty_created">$relative</time></div>
